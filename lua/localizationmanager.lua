@@ -28,7 +28,7 @@
 		["hud_assault_FG_cover15"] = "한 번 해보자고, 베이비",
 		["hud_assault_FG_cover16"] = "전송을 제어 중",
 		["hud_assault_FG_cover17"] = "지금 해보자고",
-		["hud_assault_FG_cover18"] = "LET'S DANCE, 얘들아",
+		["hud_assault_FG_cover18"] = "춤춰보자고, 얘들아",
 		["hud_assault_FG_cover19"] = "HOT SAUCE FOR JEROME",
 		["hud_assault_FG_cover20"] = "THE ANSWER LIES IN THE HEART OF BATTLE",
 		["hud_assault_FG_cover21"] = "THIS PARTY IS GETTIN CRAZY",
@@ -534,22 +534,22 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_deck15_9_desc"] = "체력 피해를 입으면 ##다음 틱 당 방탄복을 즉시 재생##합니다.\n\n덱 완성 보너스: PAYDAY 도중 높은 등급의 아이템을 얻을 확률이 ##10%## 상승합니다.",
 
 			--Even more Fire Power!--
-			["menu_more_fire_power_desc"] = "베이직: ##$basic;##\nYou gain ##1## more shaped charge and ##4## more trip mines.\n\nACE: ##$pro;##\nYou gain ##4## more shaped charges and ##7## more trip mines.",
+			["menu_more_fire_power_desc"] = "베이직: ##$basic;##\n성형작약탄 ##1##개, 트립마인 ##4##개를 소지합니다.\n\n에이스: ##$pro;##\n성형작약탄 ##4##개, 트립마인 ##7##개를 더 소지합니다.",
 			
 			--Infiltrator/Sociopath Shit--
-			["menu_deck8_1_desc"] = "Your movement speed is further increased by ##5%##.",
+			["menu_deck8_1_desc"] = "이동 속도가 ##5%##만큼 추가로 증가합니다.",
 			
-			["menu_deck8_3_desc"] = "Your movement speed is further increased by ##5%##.",
+			["menu_deck8_3_desc"] = "이동 속도가 ##5%##만큼 추가로 증가합니다.",
 			
-			["menu_deck8_7_desc"] = "Your movement speed is increased by ##15%##. \n\nEach consecutive melee hit will increase your melee weapon swing speed by ##25%## for ##1.5## seconds.\n\nThis can be stacked up to ##4## times.\n\nRunning out of time will reset all stacks",
+			["menu_deck8_7_desc"] = "이동 속도가 ##15%##만큼 증가합니다. \n\n근접 무기로 연속적으로 적을 맞추면 ##1.5##초 동안 근접 무기의 휘두르는 속도를 ##25%##만큼 증가시킵니다.\n\n최대 ##4##번까지 중첩될 수 있습니다.\n\n시간이 모두 지나면 모든 중첩이 리셋됩니다.",
 			
-			["menu_deck8_9_desc"] = "Striking an enemy with your melee weapon will heal you for ##+25 Health##.\n\nThis cannot occur more than once every ##5## seconds",
+			["menu_deck8_9_desc"] = "근접 무기로 적을 공격하면 체력을 ##25%##만큼 회복합니다.\n\n이 효과는 ##5##초마다 한 번만 발생합니다.",
 
-			["menu_deck9_1"] = "No Talk",
+			["menu_deck9_1"] = "말 없는",
 
-			["menu_deck9_1_desc"] = "Your movement speed is increased by ##15%##. \n\nEach consecutive melee hit will increase your melee weapon swing speed by ##25%##for ##1.5## seconds.\n\nThis can be stacked up to ##4## times.\n\nRunning out of time will reset all stacks.",
+			["menu_deck9_1_desc"] = "이동 속도가 ##15%##만큼 증가합니다. \n\n근접 무기로 연속적으로 적을 맞추면 ##1.5##초 동안 근접 무기의 휘두르는 속도를 ##25%##만큼 증가시킵니다.\n\n최대 ##4##번까지 중첩될 수 있습니다.\n\n시간이 모두 지나면 모든 중첩이 리셋됩니다.",
  
-			["menu_deck9_5_desc"] ="Killing an enemy with a melee weapon regenerates ##10%## health. \n\nThis cannot occur more than once every ##1## second. \n\nYour movement speed is further increased by ##5%##.",
+			["menu_deck9_5_desc"] ="근접 무기로 적을 죽이면 ##10%##의 체력이 회복됩니다. \n\n이 효과는 ##1##초마다 한 번만 발생합니다. \n\n이동 속도가 ##5%##만큼 추가로 증가합니다.",
  
 			--Stoic--
 			["menu_deck19_1_desc"] = "Unlocks and equips the Stoic Hip Flask.\n\nDamage taken is now reduced by ##66%##. The remaining damage will be applied directly.\n\nThe ##66%## reduced damage will be applied over-time (##12## seconds) instead.\n\nYou can use the throwable key to activate the Stoic Hip Flask and immediately negate any pending damage. The flask has a ##15## second cooldown but time remaining will be lessened by 1 second per enemy killed.",
