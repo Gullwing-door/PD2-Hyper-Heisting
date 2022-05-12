@@ -552,16 +552,16 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_deck9_5_desc"] ="근접 무기로 적을 죽이면 ##10%##의 체력이 회복됩니다. \n\n이 효과는 ##1##초마다 한 번만 발생합니다. \n\n이동 속도가 ##5%##만큼 추가로 증가합니다.",
  
 			--Stoic--
-			["menu_deck19_1_desc"] = "Unlocks and equips the Stoic Hip Flask.\n\nDamage taken is now reduced by ##66%##. The remaining damage will be applied directly.\n\nThe ##66%## reduced damage will be applied over-time (##12## seconds) instead.\n\nYou can use the throwable key to activate the Stoic Hip Flask and immediately negate any pending damage. The flask has a ##15## second cooldown but time remaining will be lessened by 1 second per enemy killed.",
-			["menu_deck19_3_desc"] = "You gain ##+15%## more health.",
+			["menu_deck19_1_desc"] = "금욕주의자의 힙 플라스크를 잠금 해체하고 장비합니다.\n\n이제 받는 피해가 ##66%##만큼 감소합니다. 남은 데미지는 그대로 적용됩니다.\n\n대신 ##66%##만큼 감소되는 데미지가 지속 시간(##12##초)에 적용됩니다.\n\n투척무기 키를 사용하여 금욕주의자의 힙 플라스크를 활성화하고 지속 피해을 즉시 무효화할 수 있습니다. 플라스크의 재사용 대기시간은 ##15##초이지만 남은 시간은 적 처치 시 1초씩 줄어듭니다.",
+			["menu_deck19_3_desc"] = "체력을 ##15%##만큼 더 얻습니다.",
 
-			["menu_deck17_9"] = "Push It To The Limit",
+			["menu_deck17_9"] = "한계까지 밀어붙여",
 			
-			["menu_deck2_1_desc"] = "You gain ##5%## more health.",
+			["menu_deck2_1_desc"] = "체력을 ##5%##만큼 더 얻습니다.",
 			
 			["menu_deck2_3_desc"] = "You are ##15%## more likely to be targeted by enemies when you are close to your crew members.\n\nYou gain ##5%## more health.",
 			
-			["menu_deck2_5_desc"] = "You gain ##5%## more health.",
+			["menu_deck2_5_desc"] = "체력을 ##5%##만큼 더 얻습니다.",
 			
 			["menu_deck2_7_desc"] = "On killing an enemy, you have a ##50%## chance to spread ##Panic## amongst enemies within a ##6m## radius of the victim.\n\n##Panic## will make enemies go into ##bursts of uncontrollable fear.##",
 			
