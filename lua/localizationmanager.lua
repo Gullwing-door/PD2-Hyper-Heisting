@@ -1,34 +1,34 @@
 ﻿Hooks:Add("LocalizationManagerPostInit", "shin_loc", function(loc)
 	LocalizationManager:add_localized_strings({
-		["hhmenu_hold_to_jump"] = "AUTO-JUMP",
-		["hhmenu_hold_to_jump_help"] = "Allow consecutive jumps by simply holding the jump button.",
-		["hhmenu_staticrecoil"] = "Static Recoil",
-		["hhmenu_staticrecoil_help"] = "Disables the automatic recoil compensation, making you have to manually pull down on the mouse to adjust your aim after you stop firing.",
-		["hhmenu_holdtofire"] = "HOLD TO FIRE SINGLE-FIRE WEAPONS",
-		["hhmenu_holdtofire_help"] = "Allows players to fire single-fire weapons at their maximum firerate by Fire button.",
+		["hhmenu_hold_to_jump"] = "오토 점프",
+		["hhmenu_hold_to_jump_help"] = "점프 버튼을 누르고 있으면 연속 점프가 가능하게 합니다.",
+		["hhmenu_staticrecoil"] = "스테딕 반동",
+		["hhmenu_staticrecoil_help"] = "자동 반동 보정을 비활성화하여 발사를 멈춘 후에도 조준을 조정하려면 마우스를 수동으로 당겨야합니다.",
+		["hhmenu_holdtofire"] = "단발 무기를 길게 눌려서 속사",
+		["hhmenu_holdtofire_help"] = "플레이어가 발사 버튼을 눌려 최대 발사 속도로 단발 무기를 발사할 수 있게 합니다.",
 		
-		["hud_assault_boss_incoming"] = "/// WARNING: BOSS INCOMING ///",
-		["hud_assault_boss"] = "DEFEAT THE BOSS TO END THE ASSAULT",
-		["hud_assault_bosses"] = "DEFEAT ALL BOSSES TO END THE ASSAULT",
+		["hud_assault_boss_incoming"] = "/// 경고: 보스 접근 중 ///",
+		["hud_assault_boss"] = "어썰트를 끝낼려면 보스를 쓰려트리십시오",
+		["hud_assault_bosses"] = "어썰트를 끝낼려면 모든 보스를 쓰려트리십시오",
 	
-		["hud_assault_FG_cover1"] = "KILL EACHOTHER, BUT IT'S GOOD INVERSES",
-		["hud_assault_FG_cover2"] = "UNADULTERATED MADNESS",
-		["hud_assault_FG_cover3"] = "THUGGERY AT THE FULLEST OF DISPLAYS",
-		["hud_assault_FG_cover4"] = "ANOTHER FIGHT IS COMING YOUR WAY",
-		["hud_assault_FG_cover5"] = "THE WHEEL OF FATE IS TURNING",
-		["hud_assault_FG_cover6"] = "THIS IS TUNA WITH BACON",
-		["hud_assault_FG_cover7"] = "THIS BATTLE IS ABOUT TO EXPLODE",
-		["hud_assault_FG_cover8"] = "BODY THE COPS",
-		["hud_assault_FG_cover9"] = "SHOW ME YOUR MOTIVATION",
-		["hud_assault_FG_cover10"] = "LOOK TO LA LUNA",
-		["hud_assault_FG_cover11"] = "CAN'T ESCAPE FROM CROSSING FATE",
-		["hud_assault_FG_cover12"] = "LIVE AND LET DIE",
-		["hud_assault_FG_cover13"] = "WHERE YO CURLY MUSTACHE AT",
-		["hud_assault_FG_cover14"] = "WELCOME TO HYPER HEISTING",
-		["hud_assault_FG_cover15"] = "LET'S ROCK, BABY",
-		["hud_assault_FG_cover16"] = "WE ARE CONTROLLING TRANSMISSION",
-		["hud_assault_FG_cover17"] = "LET'S DO IT NOW",
-		["hud_assault_FG_cover18"] = "LET'S DANCE, BOYS",
+		["hud_assault_FG_cover1"] = "서로를 죽여라, 하지만 이번에는 좋은 쪽",
+		["hud_assault_FG_cover2"] = "완전한 광기",
+		["hud_assault_FG_cover3"] = "디스플레이를 최대한 활용한 폭력행위",
+		["hud_assault_FG_cover4"] = "또 다른 싸움이 너에게 다가오고 있다",
+		["hud_assault_FG_cover5"] = "운명의 수레바퀴가 돌고 있다",
+		["hud_assault_FG_cover6"] = "이건 베이컨을 곁들인 참치",
+		["hud_assault_FG_cover7"] = "이 전투는 곧 폭발한다",
+		["hud_assault_FG_cover8"] = "경찰들의 시체들",
+		["hud_assault_FG_cover9"] = "너의 자극을 보여줘",
+		["hud_assault_FG_cover10"] = "라 루나를 봐",
+		["hud_assault_FG_cover11"] = "운명을 건너서 도망칠 수는 없다",
+		["hud_assault_FG_cover12"] = "살고 죽게 놔두자",
+		["hud_assault_FG_cover13"] = "곱슬곱슬한 콧수염은 어디에",
+		["hud_assault_FG_cover14"] = "하이퍼 하이스팅에 온 걸 환영한다",
+		["hud_assault_FG_cover15"] = "한 번 해보자고, 베이비",
+		["hud_assault_FG_cover16"] = "전송을 제어 중",
+		["hud_assault_FG_cover17"] = "지금 해보자고",
+		["hud_assault_FG_cover18"] = "LET'S DANCE, 얘들아",
 		["hud_assault_FG_cover19"] = "HOT SAUCE FOR JEROME",
 		["hud_assault_FG_cover20"] = "THE ANSWER LIES IN THE HEART OF BATTLE",
 		["hud_assault_FG_cover21"] = "THIS PARTY IS GETTIN CRAZY",
@@ -452,8 +452,8 @@ end)
  if _G.BB or FullSpeedSwarm or Iter or _G.SC or _G.deathvox then
 	Hooks:Add("LocalizationManagerPostInit", "HH_Incompatible", function(loc)
 	LocalizationManager:add_localized_strings({	
-		["menu_toggle_one_down"] = "PLEASE UNINSTALL YOUR AI MODS",
-		["menu_one_down"] = "PLEASE UNINSTALL YOUR AI MODS"
+		["menu_toggle_one_down"] = "AI 모드를 제거해주십시오",
+		["menu_one_down"] = "AI 모드를 제거해주십시오"
 	})		
 	end)
  end
@@ -462,8 +462,8 @@ if InFmenu then
   if InFmenu.settings.rainbowassault == true or InFmenu.settings.sanehp == true or InFmenu.settings.copmiss == true or InFmenu.settings.copfalloff or InFmenu.settings.skulldozersahoy == 2 or InFmenu.settings.skulldozersahoy == 3 then
 	Hooks:Add("LocalizationManagerPostInit", "HH_IncompatibleIren", function(loc)
 	LocalizationManager:add_localized_strings({	
-		["menu_toggle_one_down"] = "DISABLE ALL OF IRENFIST'S ENEMY AND ENEMY SPAWN ADJUSTMENTS",
-		["menu_one_down"] = "DISABLE ALL OF IRENFIST'S ENEMY AND ENEMY SPAWN ADJUSTMENTS"
+		["menu_toggle_one_down"] = "모든 IRENFIST의 적 및 모든 적 스폰 조정 비활성화해주십시오",
+		["menu_one_down"] = "모든 IRENFIST의 적 및 모든 적 스폰 조정 비활성화해주십시오"
 	})		
 	end)
   end
@@ -489,52 +489,52 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 	if PD2THHSHIN and PD2THHSHIN:IsOverhaulEnabled() then
 		LocalizationManager:add_localized_strings({	
 			--SPEED IS WAR
-			["bm_menu_movement"] = "M/S",
+			["bm_menu_movement"] = "이동 속도",
 
 			--Rogue
-			["menu_deck4_1_desc"] = "Your chance to dodge is increased by ##5%##.",
-			["menu_deck4_5_desc"] = "Your chance to dodge is increased by ##10%##.",
-			["menu_deck4_7_desc"] = "Your chance to dodge is increased by ##15%##.",
+			["menu_deck4_1_desc"] = "회피 확률이 ##5%##만큼 증가합니다.",
+			["menu_deck4_5_desc"] = "회피 확률이 ##10%##만큼 증가합니다.",
+			["menu_deck4_7_desc"] = "회피 확률이 ##15%##만큼 증가합니다.",
 		
 			--Crook
-			["menu_deck6_1_desc"] = "Your chance to dodge is increased by ##5%##.",
-			["menu_deck6_5_desc"] = "Your chance to dodge is increased by ##5%## for ballistic vests.\n\nYour armor is increased by ##20%## for ballistic vests.",
-			["menu_deck6_7_desc"] = "Your chance to dodge is increased by ##5%## for ballistic vests.\n\nYour armor is increased by ##25%## for ballistic vests.",
+			["menu_deck6_1_desc"] = "회피 확률이 ##5%##만큼 증가합니다.",
+			["menu_deck6_5_desc"] = "방탄 조끼의 회피 확률이 ##5%##만큼 증가합니다.\n\n방탄 조끼의 방탄복이 ##20%##만큼 증가합니다.",
+			["menu_deck6_7_desc"] = "방탄 조끼의 회피 확률이 ##5%##만큼 증가합니다.\n\n방탄 조끼의 방탄복이 ##25%##만큼 증가합니다.",
 			
 			--Burglar
-			["menu_deck7_1_desc"] = "Your chance to dodge is increased by ##5%##.",
+			["menu_deck7_1_desc"] = "회피 확률이 ##5%##만큼 증가합니다.",
 			
 			--Ex-President
-			["menu_deck13_3_desc"] = "Increases the amount of health stored from kills by ##4##.\n\nYou gain ##5%## more health.",
-			["menu_deck13_5_desc"] = "Increases the maximum health that can be stored by ##50%##.\n\nYou gain ##5%## more health.\n\nYour chance to dodge is increased by ##5%##.",
-			["menu_deck13_7_desc"] = "Increases the amount of health stored from kills by ##4##.\n\nYou gain ##5%## more health.",
+			["menu_deck13_3_desc"] = "처치 시 저장되는 체력이 ##4##만큼 증가합니다.\n\n체력을 ##5%##만큼 더 얻습니다.",
+			["menu_deck13_5_desc"] = "저장할 수 있는 최대 체력이 ##50%##만큼 증가합니다.\n\nY체력을 ##5%##만큼 더 얻습니다.\n\n회피 확률이 ##5%##만큼 증가합니다.",
+			["menu_deck13_7_desc"] = "처치 시 저장되는 체력이 ##4##만큼 증가합니다.\n\n체력을 ##5%##만큼 더 얻습니다.",
 			
 			--Sicario
-			["menu_deck18_3_desc"] = "Every time the player gets shot, ##10%## dodge chance is gained.\n\nThis effect is reset once the player dodges and will not occur for the next ##6## seconds.",
-			["menu_deck18_5_desc"] = "Your chance to dodge is increased by ##5%##.",
+			["menu_deck18_3_desc"] = "플레이어가 총에 맞을 때마다 회피 확률을 ##10%##만큼 얻습니다.\n\n이 효과는 플레이어가 회피하면 리셋되며 다음 ##6##초 동안 발생하지 않습니다.",
+			["menu_deck18_5_desc"] = "회피 확률이 ##5%##만큼 증가합니다.",
 			
 			--Hacker
-			["menu_deck21_3_desc"] = "Your maximum health is increased by ##+10%##.",
-			["menu_deck21_5_desc"] = "Killing at least ##1## enemy while the feedback or jamming effect is active will grant ##+15%## dodge for ##30## seconds.",
+			["menu_deck21_3_desc"] = "최대 체력이 ##+10%##만큼 증가합니다.",
+			["menu_deck21_5_desc"] = "피드백 또는 재밍 효과가 활성화된 상태에서 적을 최소 ##1##명씩 죽이면 ##30##초 동안 회피가 ##+15%##만큼 부여됩니다.",
 		
 			--Anarchist
-			["menu_deck15_1"] = "Warrior Sound",
-			["menu_deck15_1_desc"] = "Instead of fully regenerating armor instantly once the Armor Recovery timer has elapsed, The Anarchist will generate ##12## armor every ##6## seconds.\n\nHeavier armors ##generate more armor## per tick, but have a ##longer delay## between ticks.\n\nKilling enemies ##speeds up the delay## between ticks for armor generation, with each enemy killed being ##1/20th## of the timer.\n\nNote: Skills and perks that increases the armor recovery rate are disabled when using this perk deck.",
+			["menu_deck15_1"] = "전사의 소리",
+			["menu_deck15_1_desc"] = "아니키스트는 방탄복 회복 타이머가 경과하면 즉시 방탄복을 완전히 재생하는 대신 ##6##초마다 방탄복을 ##12##씩 생성합니다.\n\n방탄복이 무거울 수록 틱당 ##더 많은 방탄복을 생성##하지만 틱 사이에 ##더 긴 재생 시간##이 있습니다.\n\n적을 죽이면 방탄복 생성을 위한 틱 사이의 ##재생 속도가 빨라집니다##, 죽인 적마다 타이머가 ##1/20##만큼 줄어듭니다.\n\n참고: 이 특성 덱을 사용할 때 방탄복 회복 속도를 증가시키는 스킬과 특성은 비활성화됩니다.",
 			
-			["menu_deck15_3"] = "Run You",
-			["menu_deck15_3_desc"] = "##50%## of your health is converted into ##25%## armor.",
+			["menu_deck15_3"] = "당신에게 달려오기",
+			["menu_deck15_3_desc"] = "체력의 ##50%##가 ##25%##만큼 방어구로 전환됩니다.",
 			
-			["menu_deck15_5"] = "New Design",
-			["menu_deck15_5_desc"] = "##75%## of your health is converted into ##50%## armor.",
+			["menu_deck15_5"] = "새로운 디자인",
+			["menu_deck15_5_desc"] = "체력의 ##75%##가 ##50%##만큼 방어구로 전환됩니다.",
 			
-			["menu_deck15_7"] = "Requiem",
-			["menu_deck15_7_desc"] = "Killing enemies now speeds up the delay between ticks for armor generation by ##1/10th## of the timer.",
+			["menu_deck15_7"] = "레퀴엠",
+			["menu_deck15_7_desc"] = "적을 죽이면 이제 타이머의 ##1/10##만큼 방탄복 생성을 위한 틱 사이의 재생 속도가 빨라집니다.",
 			
-			["menu_deck15_9"] = "No Respect",
-			["menu_deck15_9_desc"] = "Upon taking health damage, ##you regenerate the next tick of armor instantly##.\n\nDeck Completion Bonus: Your chance of getting a higher quality item during a PAYDAY is increased by ##10%.##",
+			["menu_deck15_9"] = "존중이 없음",
+			["menu_deck15_9_desc"] = "체력 피해를 입으면 ##다음 틱 당 방탄복을 즉시 재생##합니다.\n\n덱 완성 보너스: PAYDAY 도중 높은 등급의 아이템을 얻을 확률이 ##10%## 상승합니다.",
 
 			--Even more Fire Power!--
-			["menu_more_fire_power_desc"] = "BASIC: ##$basic;##\nYou gain ##1## more shaped charge and ##4## more trip mines.\n\nACE: ##$pro;##\nYou gain ##4## more shaped charges and ##7## more trip mines.",
+			["menu_more_fire_power_desc"] = "베이직: ##$basic;##\nYou gain ##1## more shaped charge and ##4## more trip mines.\n\nACE: ##$pro;##\nYou gain ##4## more shaped charges and ##7## more trip mines.",
 			
 			--Infiltrator/Sociopath Shit--
 			["menu_deck8_1_desc"] = "Your movement speed is further increased by ##5%##.",
@@ -701,57 +701,57 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			
 			["bm_grenade_copr_ability_desc"] = "Activating the Leech ability requires you to break a small opaque glass ampule under your nose and take a deep breath. You're not quite sure what's in it, but it makes the world come into focus, and causes your adrenaline to spike.\n\nOne thing is certain; it sure as shit isn't smelling salts, if the faint wriggling shadow inside it doesn't spell it out.",
 			
-			["hud_stats_pagers_used"] = "STRIKES LEFT",
+			["hud_stats_pagers_used"] = "남은 스트라이크",
 			
 			--mutual perks
-			["menu_deckall_2"] = "Used To It",
-			["menu_deckall_2_desc"] = "You gain ##+50%## resistance to suppression.",
+			["menu_deckall_2"] = "그것에 익숙해지다",
+			["menu_deckall_2_desc"] = "제압 저항을 ##+50%##만큼 얻습니다.",
 			
-			["menu_deckall_6_desc"] = "Unlocks the ##Armor Bag## equipment for you to use.\n\nThe ##Armor Bag## can be used to change your armor during a heist.",
+			["menu_deckall_6_desc"] = "##방탄복 가방## 장비를 잠금 해제합니다.\n\n##방탄복 가방##은 습격 중에 방탄복을 교체하는 데 사용할 수 있습니다.",
 			
 			-- weapon stuff below
-			["bm_GEN_speed_strap"] = "Gonzalez Magazine",
-			["bm_GEN_decorative_strap"] = "Adds a useless decorative thingymajig to your weapon for style purposes! Makes you FEEL like you're reloading faster!",--bye bye power creep
-			["bm_GEN_fmg9_speed_strap"] = "Celebrity X9 Magazine",
-			["bm_GEN_fmg9_speed_strap_desc"] = "Used by famous celebrity rapper X9 during a stage performance before he was arrested, Makes you FEEL like you're reloading faster!",
+			["bm_GEN_speed_strap"] = "곤잘레스 탄창",
+			["bm_GEN_decorative_strap"] = "스타일을 위해 무기에 쓸모없는 장식용 씽타이마지그를 추가합니다! 재장전 속도가 더 빨라진 것처럼 느껴질겁니다!",--bye bye power creep
+			["bm_GEN_fmg9_speed_strap"] = "연예인 X9 매거진",
+			["bm_GEN_fmg9_speed_strap_desc"] = "유명한 래퍼 X9이 체포되기 전 무대 공연에서 사용한 것으로, 재장전 속도가 빨라지는 느낌을 줍니다!",
 			
-			["bm_wp_g3_b_short"] = "Short Barrel",
-			["bm_wp_g3_b_sniper"] = "Long Barrel",
+			["bm_wp_g3_b_short"] = "짧은 총열",
+			["bm_wp_g3_b_sniper"] = "긴 총열",
 			
-			["bm_wp_upg_a_piercing_desc"] = "Pierces through enemy armor.",
-			["bm_wp_upg_a_custom_desc"] = "Gives your shotgun rounds fancy tracer effects! Purely aesthetic!",
+			["bm_wp_upg_a_piercing_desc"] = "적의 방탄복을 관통합니다.",
+			["bm_wp_upg_a_custom_desc"] = "산탄총탄에 멋진 야광 효과를 제공합니다! 순수하게 에스테틱하군요!",
 			
-			["bm_w_p90"] = "Kobus 90 Piercer Submachine Gun",
-			["bm_w_p90_desc"] = "Piercer Rounds that penetrate Walls, Enemies, Shields and Body Armor!",
-			["bm_w_asval"] = "Valkyria Piercer Rifle",
-			["bm_w_asval_desc"] = "Piercer Rounds that penetrate Walls, Enemies, Shields and Body Armor!",
-			["des_shak12"] = "Heavy Rounds that pierce Enemies and Body Armor!",
-			["bm_w_shak12_desc"] = "Heavy Rounds that pierce Enemies and Body Armor!",
-			["des_ching"] = "High-Caliber Rounds that pierce Enemies, Shields and Body Armor!",
-			["bm_w_ching_desc"] = "High-Caliber Rounds that pierce Enemies, Shields and Body Armor!",
-			["des_akm"] = "AP Rounds that pierce Body Armor!",
-			["bm_w_akm_desc"] = "AP Rounds that pierce Body Armor!",
-			["des_scar"] = "AP Rounds that pierce Body Armor!",
-			["bm_w_scar_desc"] = "AP Rounds that pierce Body Armor!",
-			["des_akm_gold"] = "AP Rounds that pierce Body Armor!",
-			["bm_w_akm_gold_desc"] = "AP Rounds that pierce Body Armor!",
-			["des_flint"] = "AP Rounds that pierce Body Armor!",
-			["bm_w_flint_desc"] = "AP Rounds that pierce Body Armor!",
-			["des_ak12"] = "AP Rounds that pierce Body Armor!",
-			["bm_w_ak12_desc"] = "AP Rounds that pierce Body Armor!",
-			["des_fal"] = "AP Rounds that pierce Body Armor!",
-			["bm_w_fal_desc"] = "AP Rounds that pierce Body Armor!",
-			["des_m16"] = "AP Rounds that pierce Body Armor!",
-			["bm_w_m16_desc"] = "AP Rounds that pierce Body Armor!",
+			["bm_w_p90"] = "Kobus 90 관통용 기관단총",
+			["bm_w_p90_desc"] = "벽, 적, 방패, 방탄복을 관통하는 관통탄을 사용합니다!",
+			["bm_w_asval"] = "Valkyria 관통용 소총",
+			["bm_w_asval_desc"] = "벽, 적, 방패, 방탄복을 관통하는 관통탄을 사용합니다!",
+			["des_shak12"] = "적과 방탄복을 관통하는 중탄을 사용합니다!",
+			["bm_w_shak12_desc"] = "적과 방탄복을 관통하는 중탄을 사용합니다!",
+			["des_ching"] = "적, 방패, 방탄복을 관통하는 대구경 탄환을 사용합니다!",
+			["bm_w_ching_desc"] = "적, 방패, 방탄복을 관통하는 대구경 탄환을 사용합니다",
+			["des_akm"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["bm_w_akm_desc"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["des_scar"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["bm_w_scar_desc"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["des_akm_gold"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["bm_w_akm_gold_desc"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["des_flint"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["bm_w_flint_desc"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["des_ak12"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["bm_w_ak12_desc"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["des_fal"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["bm_w_fal_desc"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["des_m16"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
+			["bm_w_m16_desc"] = "방탄복을 관통하는 철갑탄을 사용합니다!",
 			
-			["des_GEN_shotgun_push"] = "This weapon has shotgun push functionality.",
+			["des_GEN_shotgun_push"] = "이 무기에는 샷건 푸시 기능이 있습니다.",
 
 			
 			--DMR KITS
-			["bm_GEN_light_DMR_desc"] = "Grants your weapon Heavy Rounds that pierce Enemies and Body Armor! Reduces your Rate Of Fire!",
-			["bm_GEN_heavy_DMR_desc"] = "Grants your weapon High-Caliber Rounds that pierce Enemies, Shields and Body Armor! Greatly reduces your Rate Of Fire!",
-			["bm_GEN_sniper_kit"] = "Highly Modified Kit",
-			["bm_GEN_sniperkit_desc"] = "Grants your weapon Piercer Rounds that penetrate Walls, Enemies, Shields and Body Armor! Tremendously reduces your Rate of Fire!",
+			["bm_GEN_light_DMR_desc"] = "이 무기에 적과 방탄복을 관통하는 중탄을 부여합니다! 그 대신 발사 속도가 감소합니다!",
+			["bm_GEN_heavy_DMR_desc"] = "이 무기에 적, 방패 및 방탄복을 관통하는 대구경 탄을 부여합니다! 그 대신 발사 속도가 크게 감소합니다!",
+			["bm_GEN_sniper_kit"] = "강력 개조 키트",
+			["bm_GEN_sniperkit_desc"] = "이 무기에 벽, 적, 방패 및 방탄복을 관통하는 관통탄을 부여합니다! 그 대신 발사 속도가 대폭 감소합니다!",
 			
 			["bm_menu_damage_falloff_lol_1"] = "A LOT",
 			["bm_menu_damage_falloff_lol_2"] = "PLENTY",
