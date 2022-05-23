@@ -377,7 +377,7 @@
 		["loading_hh_27"] = "때로는 적을 죽이고 도망칠 필요가 없습니다! 그들의 몸에 몇 발의 총격을 가하고 도망가게 만들 수 있습니다!",
 		["loading_hh_28"] = "불도저에게 많은 총격을 가하면 불도저가 잠시 동안 기절하여 빠르게 도망치거나 일격으로 마무리할 수 있습니다!",
 		["loading_hh_29"] = "불도저를 기절시키는 가장 좋은 방법은 화염 방사기의 화염으로 불도저를 불태운 다음 총을 사용하여 기절 애니메이션을 하게 만드는 것입니다!",
-		["loading_hh_30"] = "화염방사기는 적을 기절 애니메이션으로 묶는 데 효과적이며 일반적인 무도회를 매우 빨리 끝내는 경향이 있습니다!",
+		["loading_hh_30"] = "화염방사기는 적을 기절 애니메이션으로 묶는 데 효과적이며 멍청한 일반 적들을 매우 빨리 태우는 경향이 있습니다!",
 		["loading_hh_31"] = "클로커는 움직일 때 방독면에서 큰 숨소리를 내며 이 소리에 귀를 기울이십시오!",
 		["loading_hh_32"] = "하이퍼 하이스팅에서 산탄총은 사거리 내에서 피해의 최소 10%를 가합니다! SWAT 저격수를 조심하십시오!",
 		["loading_hh_33"] = "하이퍼 하이스팅에서 산탄총을 사용할 때 무기의 정확도를 50 이상으로 높이면 더 높은 사거리에서 최소 피해가 증가합니다!",
@@ -399,53 +399,53 @@
 		["menu_l_global_value_hyperheist"] = "이 상품은 하이퍼 하이스팅의 아이템입니다!",
 		["menu_l_global_value_hyperheisting_desc"] = "이 상품은 하이퍼 하이스팅의 아이템입니다!",		
 		
-		["shin_options_title"] = "Hyper Heisting Options!",	
+		["shin_options_title"] = "하이퍼 하이스팅 옵션!",	
 		
-		["shin_toggle_helmet_title"] = "Extreme Helmet Popping!",
-		["shin_toggle_helmet_desc"] = "Enhances the force and power of flying helmets, and changes its calculations to give that feeling of extra oomph!",
+		["shin_toggle_helmet_title"] = "아주 강한 헬멧 날리기!",
+		["shin_toggle_helmet_desc"] = "헬멧의 날아가는 힘과 위력을 강화하고 계산을 변경하여 더 멋진 으악을 줍니다!",
 		
-		["shin_toggle_hhassault_title"] = "Stylish Assault Corner!",
-		["shin_toggle_hhassault_desc"] = "Enhances the [POLICE ASSAULT IN PROGRESS] hud area by adding extra flavor! (Such as entirely unique assault text based on the faction you are fighting against!) NOTE: Requires restarting the heist if changed mid-game!",
+		["shin_toggle_hhassault_title"] = "세련된 어썰트 코너!",
+		["shin_toggle_hhassault_desc"] = "[경찰 타격대 돌입 중] 허드 영역을 추가 풍미를 더하여 향상시킵니다! (예: 싸우고 있는 진영을 기반으로 한 완전히 독특한 어설트 텍스트!) 참고: 게임 중간에 변경된 경우 하이스트를 다시 시작해야 합니다!",
 		
-		["shin_toggle_hhskulldiff_title"] = "Hyper Difficulty Names!",
-		["shin_toggle_hhskulldiff_desc"] = "Changes the difficulty names to suit Hyper Heisting's style!",
+		["shin_toggle_hhskulldiff_title"] = "하이퍼 난이도 이름!",
+		["shin_toggle_hhskulldiff_desc"] = "하이퍼 하이스팅의 스타일에 맞게 난이도 이름을 변경합니다!",
 		
-		["shin_toggle_blurzonereduction_title"] = "Less Blurry Blurzones!",
-		["shin_toggle_blurzonereduction_desc"] = "Gently reduces the blurring effect of things such as the Cook Off Methlab in order to stop them from getting in the way of gameplay!",
+		["shin_toggle_blurzonereduction_title"] = "덜 흐릿한 블러존!",
+		["shin_toggle_blurzonereduction_desc"] = "쿡 오프 제조장와 같은 사물의 흐릿한 효과가 게임 플레이에 방해가 되지 않도록 부드럽게 줄입니다!",
 		
-		["shin_toggle_highpriorityglint_title"] = "High Priority Tells!",
-		["shin_toggle_highpriorityglint_desc"] = "Adds a glint to high priority enemies when they're about to fire, and plays a *ding!* when they're within 3 meters to let you know your goose is cooked! (Note: All of this only applies if they're targeting you!)",
+		["shin_toggle_highpriorityglint_title"] = "높은 우선 순위!",
+		["shin_toggle_highpriorityglint_desc"] = "우선 순위가 높은 적들이 발사하려고 할 때 반짝임을 추가하고 3미터 이내에 있으면 *딩!* 소리를 내서 거위가 익었다는 것을 알려줍니다! (참고: 이것은 그들이 당신을 대상으로 하는 경우에만 적용됩니다!)",
 		
-		["shin_toggle_screenFX_title"] = "Ultra ScreenFX!",
-		["shin_toggle_screenFX_desc"] = "Adds various visual adjustments and additions to screen effects that are present in Vanilla! Note: Not recommended to those prone to epilepsy.",
+		["shin_toggle_screenFX_title"] = "울트라 스크린FX!",
+		["shin_toggle_screenFX_desc"] = "바닐라에 존재하는 화면 효과에 다양한 시각적 조정 및 추가 기능을 추가합니다! 참고: 뇌전증 걸린 사람에게는 권장하지 않습니다.",
 		
-		["shin_toggle_suppression_title"] = "X-treme Visible Suppression!",
-		["shin_toggle_suppression_desc"] = "Adds a unique visual effect to your screen for when you are being suppressed by enemies!",
+		["shin_toggle_suppression_title"] = "X-treme 가시적 제압!",
+		["shin_toggle_suppression_desc"] = "적에게 제압당할 때 화면에 독특한 시각 효과를 추가합니다!",
 		
-		["shin_toggle_health_effect_title"] = "Low Health Visuals!",
-		["shin_toggle_health_effect_desc"] = "Adds a bloody screen border effect to indicate how low your health is! NOTE: Requires a heist restart to apply changes.",
+		["shin_toggle_health_effect_title"] = "낮은 체력 비주얼!",
+		["shin_toggle_health_effect_desc"] = "당신의 체력이 얼마나 낮은지 나타내기 위해 피 묻은 화면 테두리 효과를 추가합니다! 참고: 변경 사항을 적용하려면 하이스트를 다시 시작해야 합니다.",
 		
-		["shin_screenshakemult_title"] = "Screenshake Intensity",
-		["shin_screenshakemult_desc"] = "Allows you to manually set how intense screenshake effects are! You can lower it if you're prone to motion sickness! NOTE: Lowering the screenshake can make the game feel a lot less impactful!",
+		["shin_screenshakemult_title"] = "스크린쉐이크 강도",
+		["shin_screenshakemult_desc"] = "화면 흔들림 효과의 강도를 수동으로 설정할 수 있습니다! 멀미를 하는 경향이 있다면 낮출 수 있습니다! 참고: 화면 흔들림을 낮추면 게임이 훨씬 덜 임팩트 있게 느껴질 수 있습니다!",
 		
-		["shin_toggle_noweirddof_title"] = "Disable Enviromental Depth Of Field!",
-		["shin_toggle_noweirddof_desc"] = "Removes the Depth Of Field from backgrounds and the skybox allowing for them to look much clearer! NOTE: Works with the aiming Depth Of Field!",
+		["shin_toggle_noweirddof_title"] = "환경 심도 비활성화",
+		["shin_toggle_noweirddof_desc"] = "배경과 스카이박스에서 피사계 심도를 제거하여 훨씬 더 선명하게 보이도록 합니다! 참고: 조준 피사계 심도와 함께 작동합니다!",
 		
-		["shin_albanian_content_enable_title"] = "enable albanian joke content",
-		["shin_enable_albanian_content_title"] = "enable albanian joke content",
-		["shin_albanian_content_enable_desc"] = "nable abanian përmbajtje (WARNING: You probably shouldn't enable this!)",		
-		["shin_toggle_overhaul_player_title"] = "HH Player-Side Rebalance!",
-		["shin_toggle_overhaul_player_desc"] = "Enables the HH playerside rebalance, paired with a modified version of Gambyt's VIWR mod! Featuring various reworks of existing skills to make the game feel fresh! WARNING: ONLY TAKES EFFECT AFTER FULL GAME RESTART!!!",
-		["shin_requires_restart_title"] = "Restart required!",
-		["shin_requires_restart_desc"] = "You have made changes to the following settings:\n$SETTINGSLIST\nChanges will take effect on game restart.\nHave a nice day!",
-		["menu_risk_pd"] = "Accessible. Stone cold.",
-		["menu_risk_swat"] = "Simple but challenging. We are cool.",
-		["menu_risk_fbi"] = "Challenging, but relaxed. A nice breeze.",
-		["menu_risk_special"] = "Plain challenging, keeps your attention. A warm, summer day.",
-		["menu_risk_easy_wish"] = "Demands focus. Getting hot in here!",
-		["menu_risk_elite"] = "More units rolling in! More heat around the corner!",
-		["menu_risk_sm_wish"] = "There is no escaping the flames! FIGHT!",
-		["menu_hh_mutator_incomp"] = "This mutator is incompatible with Hyper Heisting...! Sadly!",
+		["shin_albanian_content_enable_title"] = "알바니아 농담 콘텐츠 활성화",
+		["shin_enable_albanian_content_title"] = "알바니아 농담 콘텐츠 활성화",
+		["shin_albanian_content_enable_desc"] = "알바니아 콘텐츠 성화 (경고: 이 기능을 활성화하면 안될 걸입니다!)",		
+		["shin_toggle_overhaul_player_title"] = "하이퍼 하이스팅 플레이어 측 재조정!",
+		["shin_toggle_overhaul_player_desc"] = "Gambit의 VIWR 모드 수정 버전과 함께 하이퍼 하이스팅 플레이어 측 재조정을 활성화합니다! 게임을 신선하게 만들기 위해 기존 스킬의 다양한 리워크를 제공합니다! 경고: 전체 게임을 다시 시작한 후에만 적용됩니다!!!",
+		["shin_requires_restart_title"] = "재시작 필요!",
+		["shin_requires_restart_desc"] = "다음 설정을 변경했습니다:\n$SETTINGSLIST\n이 변경 사항은 게임을 다시 시작할 때 적용됩니다.\n좋은 하루 되세요!",
+		["menu_risk_pd"] = "완전하게 입문할 수 있습니다.",
+		["menu_risk_swat"] = "간단하지만 도전적. 우린 멋져.",
+		["menu_risk_fbi"] = "도전적이지만 편안합니다. 좋은 미풍이군.",
+		["menu_risk_special"] = "따뜻한 여름날. 평범한 도전, 방심하지 마십시오.",
+		["menu_risk_easy_wish"] = "집중을 요구합니다. 여기 뜨거워지는데!",
+		["menu_risk_elite"] = "더 많은 유닛이 접근합니다! 코너에 더 많은 히트!",
+		["menu_risk_sm_wish"] = "불길을 피할 길은 없다! 맞서 싸워라!",
+		["menu_hh_mutator_incomp"] = "슬프게도! 이 뮤테이터는 하이퍼 하이스팅과 호환되지 않습니다...!",
 	})
 end)
 
@@ -472,13 +472,13 @@ end
 if PD2THHSHIN and PD2THHSHIN:SkullDiffEnabled() then
 	Hooks:Add("LocalizationManagerPostInit", "HH_SKULLS", function(loc)
 		LocalizationManager:add_localized_strings({			
-			["menu_difficulty_normal"] = "SWEET",
-			["menu_difficulty_hard"] = "SOFT",
-			["menu_difficulty_very_hard"] = "MILD",
-			["menu_difficulty_overkill"] = "SPICY",
-			["menu_difficulty_easy_wish"] = "ULTRA SPICY",
-			["menu_difficulty_apocalypse"] = "SCORCHING HOT",
-			["menu_difficulty_sm_wish"] = "INFERNAL"	
+			["menu_difficulty_normal"] = "스위트",
+			["menu_difficulty_hard"] = "소프트",
+			["menu_difficulty_very_hard"] = "마일드",
+			["menu_difficulty_overkill"] = "스파이시",
+			["menu_difficulty_easy_wish"] = "울트라 스파이시",
+			["menu_difficulty_apocalypse"] = "스코징 핫",
+			["menu_difficulty_sm_wish"] = "인터널"	
 		})
 	end)
 end
