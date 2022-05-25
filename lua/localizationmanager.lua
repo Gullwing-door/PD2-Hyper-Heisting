@@ -578,13 +578,13 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			
 			["menu_deck11_7_desc"] = "이제 적에게 피해를 입히면 ##3##초 동안 ##0.3##초마다 체력이 ##4##씩 회복됩니다.\n\n체력을 ##5%## 더 얻습니다.",
 			
-			["menu_deck17_3_desc"] = "You gain ##5%## more health.",
-			["menu_deck17_5_desc"] = "You gain ##5%## more health.\n\nEnemies nearby will prefer targeting you, whenever possible, while the Injector effect is active.",
-			["menu_deck17_7_desc"] = "You gain ##5%## more health.\n\nThe amount of health received during the Injector effect is increased by ##25%## while below ##50%## health.",
-			["menu_deck17_9_desc"] = "You gain an additional ##5%## more health.\n\nFor every ##50## points of health gained during the Injector effect while at maximum health, the recharge time of the injector is reduced by ##1## second.",
+			["menu_deck17_3_desc"] = "체력을 ##5%## 더 얻습니다.",
+			["menu_deck17_5_desc"] = "체력을 ##5%## 더 얻습니다.\n\n주사기 효과가 활성화되어 있는 동안 주변의 적들은 가능할 때마다 당신을 조준하는 것을 집중할 것입니다.",
+			["menu_deck17_7_desc"] = "체력을 ##5%## 더 얻습니다.\n\n체력이 ##50%## 미만일 때 주사기 효과 동안 받는 체력의 양이 ##25%##만큼 증가합니다.",
+			["menu_deck17_9_desc"] = "체력을 추가로 ##5%## 더 얻습니다.\n\n최대 체력일 때 주사기 효과 동안 얻은 체력의 ##50##마다 주사기의 재충전 시간이 ##1##초만큼 감소합니다.",
 			
 			--Leech
-			["menu_deck22_1_desc"] = "Unlocks and equips the Leech Ampule.\n\nChanging to another perk deck will make the Leech Ampule unavailable again.\n\nThe Leech Ampule replaces your current throwable, is equipped in your throwable slot and can be switched out if desired.\n\nWhile in game you can use throwable key ##$BTN_ABILITY;## to activate the Leech Ampule.\n\nActivating the Leech Ampule will restore ##40%## health, drain all your stamina and disable your armor and your ability to sprint for the duration of the Leech Ampule.\n\nWhile the Leech Ampule is active your health is divided into segments of ##20%## and damage taken from enemies removes one segment.\n\nKilling ##2## enemies will restore one segment of your health and block damage for ##1## second.\n\nAnytime you take damage your teammates are healed for ##5%## of their health.\n\nThe Leech Ampule lasts ##6## seconds and has a cooldown of ##60## seconds.",
+			["menu_deck22_1_desc"] = "리치 약병을 잠금 해제하고 장착합니다.\n\n다른 특전 덱으로 변경하면 리치 약병을 다시 사용할 수 없게 됩니다.\n\n리치 앰플은 현재 투척무기를 대체하고 투척무기 슬롯에 장착되어 있으며 원하는 경우 전환할 수 있습니다.\n\n게임 중에 투척무기를 던지는 ##$BTN_ABILITY;## 키를 사용하여 리치 약병을 활성화할 수 있습니다.\n\n리치 약병을 활성화하면 체력이 ##40%##만큼 회복되고, 모든 스태미나가 소모되며, 리치 약병이 지속되는 동안 방탄복과 전력 질주 능력이 비활성화됩니다.\n\n리치 약병이 활성화되어 있는 동안 체력이 ##20%## 분할되고 적으로부터 받는 피해마다 하나의 분할을 제거합니다.\n\n적을 ##2##명씩 죽이면 체력의 한 부할을 회복하고 ##1##초 동안 피해를 차단합니다.\n\n피해를 입을 때마다 팀원의 체력이 ##5%##만큼씩 회복됩니다.\n\n리치 약병은 ##6##초 동안 지속되며 재사용 대기시간는 ##60##초입니다 있습니다.",
 			
 			["menu_second_chances_beta_desc"] = "BASIC: ##$basic##\nYou gain the ability to disable ##1## camera from detecting you and your crew. Effect lasts for ##25## seconds.\n\nACE: ##$pro##\nYou lockpick ##75%## faster. You also gain the ability to lockpick safes.",
 			
