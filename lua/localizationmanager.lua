@@ -584,120 +584,120 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_deck17_9_desc"] = "체력을 추가로 ##5%## 더 얻습니다.\n\n최대 체력일 때 주사기 효과 동안 얻은 체력의 ##50##마다 주사기의 재충전 시간이 ##1##초만큼 감소합니다.",
 			
 			--Leech
-			["menu_deck22_1_desc"] = "리치 약병을 잠금 해제하고 장착합니다.\n\n다른 특전 덱으로 변경하면 리치 약병을 다시 사용할 수 없게 됩니다.\n\n리치 앰플은 현재 투척무기를 대체하고 투척무기 슬롯에 장착되어 있으며 원하는 경우 전환할 수 있습니다.\n\n게임 중에 투척무기를 던지는 ##$BTN_ABILITY;## 키를 사용하여 리치 약병을 활성화할 수 있습니다.\n\n리치 약병을 활성화하면 체력이 ##40%##만큼 회복되고, 모든 스태미나가 소모되며, 리치 약병이 지속되는 동안 방탄복과 전력 질주 능력이 비활성화됩니다.\n\n리치 약병이 활성화되어 있는 동안 체력이 ##20%## 분할되고 적으로부터 받는 피해마다 하나의 분할을 제거합니다.\n\n적을 ##2##명씩 죽이면 체력의 한 부할을 회복하고 ##1##초 동안 피해를 차단합니다.\n\n피해를 입을 때마다 팀원의 체력이 ##5%##만큼씩 회복됩니다.\n\n리치 약병은 ##6##초 동안 지속되며 재사용 대기시간는 ##60##초입니다 있습니다.",
+			["menu_deck22_1_desc"] = "리치 약병을 잠금 해제하고 장착합니다.\n\n다른 특전 덱으로 변경하면 리치 약병을 다시 사용할 수 없게 됩니다.\n\n리치 앰플은 현재 투척무기를 대체하고 투척무기 슬롯에 장착되어 있으며 원하는 경우 전환할 수 있습니다.\n\n게임 중에 투척무기를 던지는 ##$BTN_ABILITY;## 키를 사용하여 리치 약병을 활성화할 수 있습니다.\n\n리치 약병을 활성화하면 체력이 ##40%##만큼 회복되고, 모든 스태미나가 소모되며, 리치 약병이 지속되는 동안 방탄복과 전력 질주 능력이 비활성화됩니다.\n\n리치 약병이 활성화되어 있는 동안 체력이 ##20%## 분할되고 적으로부터 받는 피해마다 하나의 분할을 제거합니다.\n\n적을 ##2##명씩 죽이면 체력의 한 부할을 회복하고 ##1##초 동안 피해를 차단합니다.\n\n피해를 입을 때마다 팀원의 체력이 ##5%##만큼씩 회복됩니다.\n\n리치 약병은 ##6##초 동안 지속되며 재사용 대기시간는 ##60##초입니다.",
 			
-			["menu_second_chances_beta_desc"] = "BASIC: ##$basic##\nYou gain the ability to disable ##1## camera from detecting you and your crew. Effect lasts for ##25## seconds.\n\nACE: ##$pro##\nYou lockpick ##75%## faster. You also gain the ability to lockpick safes.",
+			["menu_second_chances_beta_desc"] = "베이직: ##$basic##\n카메라 ##1##대가 당신과 당신의 팀원을 감지하지 못하도록 비활성화할 수 있는 능력을 얻습니다. 효과는 ##25##초 동안 지속됩니다.\n\n에이스: ##$pro##\n자물쇠를 ##75%##만큼 더 빨리 땁니다. 또한 금고를 따는 능력도 얻습니다.",
 			
-			["menu_perseverance_beta_desc"] = "BASIC: ##$basic##\nInstead of getting downed instantly, you gain the ability to keep on fighting for ##3## seconds with a ##60%## movement penalty before going down. \n\nACE: ##$pro##\nIncreases the duration of Swan Song to ##6## seconds.",
+			["menu_perseverance_beta_desc"] = "베이직: ##$basic##\n즉시 쓰러지는 대신, 쓰러지기 전에 이동 패널티를 ##60%##만큼 받고 ##3##초 동안 계속 싸울 수 있는 능력을 얻습니다. \n\n에이스: ##$pro##\n스완송 지속 시간을 ##6##초로 늘립니다.",
 						
-			["menu_overkill_beta_desc"] = "BASIC: ##$basic##\nKilling an enemy at medium range has a ##75%## chance to spread ##Panic## among your enemies.\n\n##Panic## will make enemies go into ##bursts of uncontrollable fear.##\n\nACE: ##$pro##\nWhen you kill an enemy with a shotgun, shotguns recieve a ##50%## damage increase that lasts for ##3## seconds.",
+			["menu_overkill_beta_desc"] = "베이직: ##$basic##\n중거리에서 적을 죽이면 ##75%## 확률로 적들 사이에 ##패닉##을 퍼트립니다.\n\n##패닉##은 적들을 ##통제할 수 없는 공포로 몰아넣습니다.##\n\n에이스: ##$pro##\n산탄총으로 적을 죽이면 산탄총은 ##3##초 동안 지속되는 ##50%## 데미지 증가를 받습니다.",
 			
-			["menu_tea_time_beta"] = "Trooper's Syringe",
-			["menu_tea_time_beta_desc"] = "BASIC: ##$basic##\nAnyone who uses one of your First Aid Kits or Doctor Bags gains a ##+50%## increase in ##Reload Speed and Interaction Speed## that lasts for ##15## seconds.\n\nACE: ##$pro##\nUsing one of your First Aid Kits or Doctor Bags now also grants the user ##infinite stamina## for ##15## seconds.\n\n##Contains vaccinations, antibiotics, pain killers, steroids, heroine, gasoline...and something that feels like burning.##",
+			["menu_tea_time_beta"] = "보병의 주사기",
+			["menu_tea_time_beta_desc"] = "베이직: ##$basic##\n당신의 구급 키트 또는 의료 가방 중 하나를 사용한 사람은 ##15##초 동안 ##재장전 속도와 상호작용 속도##가 ##+50%##만큼 증가합니다.\n\n에이스: ##$pro##\n당신의 구급 키트나 의료 가방 중 하나를 사용한 사람은 이제 ##15##초 동안 사용자에게 ##무한한 스태미나##도 부여됩니다.\n\n##예방 접종, 항생제, 진통제, 스테로이드, 히로인, 휘발유... 그리고 타는 것 같은 느낌이야.##",
 			
-			["menu_tea_cookies_beta_desc"] = "BASIC: ##$basic##\nYou gain ##2## extra First Aid Kits.\n\nACE: ##$pro##\nYou gain ##2## more extra First Aid Kits.\n\nYour deployed First Aid Kits will be automatically used if a player is downed within a ##5## meter radius of the First Aid Kit.\n\nThis cannot occur more than once every ##60## seconds.",
+			["menu_tea_cookies_beta_desc"] = "베이직: ##$basic##\n구급 키트를 추가로 ##2##개 얻습니다.\n\n에이스: ##$pro##\n구급 기트를 추가로 ##2##개 더 얻습니다.\n\n플레이어가 구급 기트 반경 ##5##미터 내에 쓰러지면 배치된 구급 키트가 자동으로 사용됩니다.\n\n이 효과는##60##초마다 한 번만 발생합니다.",
 			
-			["menu_medic_2x_beta"] = "Vitamins",
-			["menu_medic_2x_beta_desc"] = "BASIC: ##$basic##\nYour doctor bags now have ##2## charges.\n\nACE: ##$pro##\nYou receive ##+25%## healing from all sources.\n\nYour Doctor Bags now grant the user the ability to resist one instance of ##lethal damage##.\n\n##The container's label has very visible quotation marks.##",
+			["menu_medic_2x_beta"] = "비타민",
+			["menu_medic_2x_beta_desc"] = "베이직: ##$basic##\n이제 의사 가방을 ##2##번 사용할 수 있습니다.\n\n에이스: ##$pro##\n모든 속성에서 ##+25%##만큼 회복합니다.\n\n이제 의료 가방을 사용하면 사용자에게 ##치명적 피해 저항## 1회를 줍니다.\n\n##컨테이너 레이블에는 눈에 잘 띄는 따옴표가 있어.##",
 			
-			["menu_inspire_beta_desc"] = "BASIC: ##$basic##\nYou revive crew members ##100%## faster. Shouting at your teammates will increase both their movement and reload speed by ##30%## and enable them to resist suppression for ##10## seconds. \n\nACE: ##$pro##\nThere is a ##100%## chance that you can revive crew members at a distance of up to ##9## meters by shouting at them. This cannot occur more than once every ##30## seconds.",
+			["menu_inspire_beta_desc"] = "베이직: ##$basic##\n팀원을 ##100%##만큼 더 빨리 소생시킵니다. 팀원에게 소리치면 팀원의 이동 속도와 재장전 속도가 ##30%## 증가하고 ##10##초 동안 제압 저항을 가지게 할 수 있습니다. \n\n에이스: ##$pro##\n##100%## 확률로 최대 ##9##미터 거리에 있는 팀원에게 소리를 지르면 즉시 소생시킬 수 있습니다. 이 효과는 ##30##초마다 한 번만 발생합니다.",
 			
-			["menu_martial_arts_beta"] = "Martial Master",			
-			["menu_martial_arts_beta_desc"] = "BASIC:##$basic##\nYou take ##50%## less damage from all melee attacks.\n\nACE: ##$pro##\nYou are ##100%## more likely to knock down enemies with a melee strike.",
+			["menu_martial_arts_beta"] = "무술 마스터",			
+			["menu_martial_arts_beta_desc"] = "베이직:##$basic##\n모든 근접 공격에서 받는 피해가 ##50%##만큼 적게 받습니다.\n\n에이스: ##$pro##\n근접 공격으로 적을 쓰러뜨릴 확률이 ##100%##만큼 증가합니다.",
 			
-			["menu_carbon_blade_beta_desc"] = "BASIC: ##$basic##\nYour saws no longer wear down on damage to enemies. Your saws deal ##100%## more damage.\n\n##Don't forget, huh, I mean for real, my saws all rule, with the world, with appeal!## \n\nACE: ##$pro##\nYou can now saw through shields with your OVE9000 portable saw. When killing an enemy with the saw, you have a ##50%## chance to cause nearby enemies in a ##10m## radius to panic. Panic will make enemies go into short bursts of uncontrollable fear.",
+			["menu_carbon_blade_beta_desc"] = "베이직: ##$basic##\n톱은 더 이상 적에게 피해를 입혀도 마모되지 않습니다. 톱의 피해가 ##100%##만큼 증가합니다.\n\n##잊지말라고, 흠, 진짜로, 내 톱은 세상과 함께, 매력 있게 지배한다고!## \n\n에이스: ##$pro##\n이제 OVE9000 휴대용 톱으로 실드를 관통할 수 있습니다. 톱으로 적을 죽이면 ##50%## 확률로 ##10##미터 반경 내의 적들을 패닉 상태로 만듭니다. 패닉은 적들을 통제할 수 없는 공포로 몰아넣습니다.",
 			
-			["menu_single_shot_ammo_return_beta"] = "Strange Bandolier",
-			["menu_single_shot_ammo_return_beta_desc"] = "BASIC: ##$basic##\nGetting a headshot will refund ##1## bullet to your used weapon.\n\nThis can only be triggered by Pistols, SMGs, Assault Rifles and Sniper Rifles.\n\nACE: ##$pro##\nGetting a headshot will increase your firerate by ##20%## for ##5## seconds.\n\nThis can only be activated by Pistols, SMGs, Assault Rifles and Sniper Rifles.\n\n##The internal mechanisms of your weapons appear to have been re-shapen into mobius strips...##",
+			["menu_single_shot_ammo_return_beta"] = "이상한 탄약대",
+			["menu_single_shot_ammo_return_beta_desc"] = "베이직: ##$basic##\n헤드샷을 하면 사용한 무기의 총알이 ##1##발 반환됩니다.\n\n이 효과는 권총, 기관단총, 돌격 소총 및 저격 소총만 발동됩니다.\n\n에이스: ##$pro##\n헤드샷을 하면 ##5##초 동안 발사 속도가 ##20%## 증가합니다.\n\n이 효과는 권총, 기관단총, 돌격 소총 및 저격 소총만 발동됩니다.\n\n##무기의 내부 메커니즘이 뫼비우스 띠로 재형성된 것 같은데...##",
 			
-			["menu_sniper_graze_damage"] = "Fine Red Mist",
-			["menu_sniper_graze_damage_desc"] = "BASIC: ##$basic##\nSuccessfully killing an enemy with a headshot will cause a ##massive blood explosion## that ##staggers## enemies and deals ##300## damage within a ##2m## radius of the victim.\n\nThis can only be activated by weapons fired in their ##single-fire## mode.\n\nACE: ##$pro##\nFine Red Mist's blood explosion range is increased to ##4 meters##.\n\n##Thanks for standing still, wanker!##",
+			["menu_sniper_graze_damage"] = "날카로운 붉은 안개",
+			["menu_sniper_graze_damage_desc"] = "베이직: ##$basic##\n헤드샷으로 적을 성공적으로 죽이면 ##대규모 피 폭발##이 발생하여 희생자의 ##2##미터 반경 내에 있는 적들을 ##기절시키고## ##300## 피해를 입힙니다.\n\n이 효과는 ##단발## 모드 무기로 쏠때만 활성화될 수 있습니다.\n\n에이스: ##$pro##\n날카로운 붉은 안개의 피 폭발 범위가 ##4미터##로 증가됩니다.\n\n##가만히 있어줘서 고맙다, 등신아!##",
 			
-			["menu_shotgun_cqb_beta"] = "High Quality Grease",
-			["menu_shotgun_cqb_beta_desc"] = "BASIC: ##$basic##\nYour weapon swap speed is increased by ##+50%## while you are ##sprinting##.\n\nACE: ##$pro##\nYou reload shotguns ##+20%## faster while sprinting and ##+40%## faster when you're not.\n\n##You don't want to know what it actually is, but there's no arguing with the results.##",
+			["menu_shotgun_cqb_beta"] = "고품질 윤활",
+			["menu_shotgun_cqb_beta_desc"] = "베이직: ##$basic##\nY##전력 질주##하는 동안 무기 교체 속도가 ##+50%##만큼 증가합니다.\n\n에이스: ##$pro##\n전력 질주하는 동안 산탄총의 재장전 속도가 ##+20%##만큼 더 빨라지고 달리지 않을 때는 ##+40%##만큼 더 빨라집니다.\n\n##넌 그것이 실제로 무엇인지 알고 싶지 않지만 결과에 대해 논쟁의 여지는 없어.##",
 			
-			["menu_shotgun_impact_beta"] = "Shotgun Shoulders",
-			["menu_shotgun_impact_beta_desc"] = "BASIC: ##$basic##\nYour shotguns gain ##+12## stability.\n\nACE: ##$pro##\nYour shotguns deal ##+25%## damage to ##healthy enemies##.\n\n##FLASHYN!##",
+			["menu_shotgun_impact_beta"] = "산탄총 어깨보호구",
+			["menu_shotgun_impact_beta_desc"] = "베이직: ##$basic##\n산탄총의 안정성이 ##+12##만큼 증가합니다.\n\n에이스: ##$pro##\n산탄총은 ##체력이 가득한 적##에게 ##+25%##만큼 피해를 줍니다.\n\n##플래신!##",
 			
-			["menu_close_by_beta"] = "Cool Hunting",
-			["menu_close_by_beta_desc"] = "BASIC: ##$basic##\nYour shotguns gain ##+25%## increased magazine capacity.\n\nIn addition, your shotguns with magazines have their magazine size increased by ##+8##.\n\nACE: ##$pro##\nYour shotguns gain a ##+0.5%## increase to firerate when you kill an enemy.\n\nThe buff lasts ##2## seconds, and can be stacked ##infinitely##, with each activation ##refreshing it's duration##.\n\n##Problem solved!##",
+			["menu_close_by_beta"] = "쿨 헌팅",
+			["menu_close_by_beta_desc"] = "베이직: ##$basic##\n산탄총의 탄창 용량이 ##+25%##만큼 증가합니다.\n\n또한 탄창이 있는 산탄총의 탄창 용량이 ##+8##만큼 증가합니다.\n\n에이스: ##$pro##\n적을 죽이면 산탄총의 발사 속도가 ##+0.5%##만큼 증가합니다.\n\n이 버프는 ##2##초 동안 지속되며 ##무한## 중첩될 수 있습니다. 활성화할 때마다 ##지속 시간이 초기화##됩니다.\n\n##문제 해결!##",
 			
-			["menu_iron_man_beta_desc"] = "BASIC: ##$basic##\nIncreases the armor recovery rate for you and your crew by ##25%##.\n\nACE: ##$pro##\nYour Melee Weapons can now ##stagger shields##.",
+			["menu_iron_man_beta_desc"] = "베이직: ##$basic##\n당신과 당신의 팀원의 방어구 회복 속도를 ##25%##만큼 증가시킵니다.\n\n에이스: ##$pro##\n근접 무기는 이제 ##실드를 넘어트릴 수 있습니다##.",
 			
-			["menu_juggernaut_beta"] = "Big Guy",
-			["menu_juggernaut_beta_desc"] = "BASIC: ##$basic##\nUnlocks the ability to wear the ##Improved Combined Tactical Vest##.\n\nACE: ##$pro##\nYou gain ##115## extra health.\n\nNOTE: ##Big Guy Aced## is applied after multipliers.\n\n##For you.##",
+			["menu_juggernaut_beta"] = "빅 가이",
+			["menu_juggernaut_beta_desc"] = "베이직: ##$basic##\n##개량형 복합 전술 조끼##를 잠금 해제하여 착용할 수 있습니다.\n\n에이스: ##$pro##\n체력을 ##115##만큼 더 얻습니다.\n\n참고: ##빅 가이 에이스 효과##는 승수 다음에 적용됩니다\n\n##너를 위해.##",
 			
-			["bm_menu_skill_locked_level_7"] = "Requires the Big Guy skill",
+			["bm_menu_skill_locked_level_7"] = "빅 가이 스킬이 필요합니다",
 			
-			["menu_bandoliers_beta"] = "Destructive Criticism",
-			["menu_bandoliers_beta_desc"] = "BASIC: ##$basic##\nYour total ammo capacity is increased by ##25%## and the ammo pickup of your weapons is increased by ##100%##.\n\nACE: ##$pro##\nKilling enemies speeds up the cooldowns on your grenades by ##2%## of their cooldown.\n\nIn addition, the chance of regaining non-grenade Throwables from ammo boxes is increased by ##100%##.\n\nNOTE: Does not stack with the ##Walk-in Closet## ammo pickup bonus gained from perk decks.\n\n##Sticks and stones may break their bones, but YOU are going to VAPORIZE them.##",
+			["menu_bandoliers_beta"] = "파괴적인 비평",
+			["menu_bandoliers_beta_desc"] = "베이직: ##$basic##\n총 탄약량이 ##25%##만큼 증가하고 무기의 탄약 획득량이 ##100%## 증가합니다.\n\n에이스: ##$pro##\n적을 죽이면 수류탄의 재사용 대기시간이 재사용 대기시간의 ##2%##만큼 빨라집니다.\n\n또한 탄약 상자에서 수류탄이 아닌 투척물을 회수할 확률이 ##100%## 증가합니다.\n\n참고: 특전 덱에서 얻는 ##휴대용 옷장##의 탄약 픽업 보너스와 중첩되지 않습니다.\n\n##막대기와 돌은 뼈를 부러뜨릴 수 있지만 너는 그것들을 증발 시킬거야.##",
 			
 			["menu_nine_lives_beta"] = "Necromantic Aspect",
-			["menu_nine_lives_beta_desc"] = "BASIC: ##$basic##\nAfter being revived, you knock down all cops within ##4 meters##.\n\nACE: ##$pro##\nYou are now protected from ##lethal damage## for ##1.5## seconds after being revived.\n\n##I live...again.##",
+			["menu_nine_lives_beta_desc"] = "베이직: ##$basic##\nAfter being revived, you knock down all cops within ##4 meters##.\n\n에이스: ##$pro##\nYou are now protected from ##lethal damage## for ##1.5## seconds after being revived.\n\n##I live...again.##",
 			
 			["menu_feign_death"] = "Dark Metamorphosis",
-			["menu_feign_death_desc"] = "BASIC: ##$basic##\nUpon killing an enemy, regenerate ##2.5## Health.\n\nACE: ##$pro##\nThe regeneration is increased to ##5## Health.\n\n##...But enough talk! Have at you!##",
+			["menu_feign_death_desc"] = "베이직: ##$basic##\nUpon killing an enemy, regenerate ##2.5## Health.\n\n에이스: ##$pro##\nThe regeneration is increased to ##5## Health.\n\n##...But enough talk! Have at you!##",
 			
 			["menu_pistol_beta_messiah"] = "Resurrection",
-			["menu_pistol_beta_messiah_desc"] = "BASIC: ##$basic##\nWhile in bleedout, you can revive yourself if you kill an enemy.  This can only happen every ##240## seconds.\n\nACE: ##$pro##\nYou gain the ability to get downed ##1## more time before going into custody.\n\n##The mark of my divinity shall scar thy DNA.##",
+			["menu_pistol_beta_messiah_desc"] = "베이직: ##$basic##\nWhile in bleedout, you can revive yourself if you kill an enemy.  This can only happen every ##240## seconds.\n\n에이스: ##$pro##\nYou gain the ability to get downed ##1## more time before going into custody.\n\n##The mark of my divinity shall scar thy DNA.##",
 			
 			["menu_heavy_impact_beta"] = "Short Holster",
-			["menu_heavy_impact_beta_desc"] = "BASIC: ##$basic##\nYou swap weapons ##50%## faster.\n\nACE: ##$pro##\nYour weapons' recoil is reduced by ##20%##.\n\nNOTE: This applies separately from the Stability weapon stat.\n\n##Comfy and easy to wear.##",
+			["menu_heavy_impact_beta_desc"] = "베이직: ##$basic##\nYou swap weapons ##50%## faster.\n\n에이스: ##$pro##\nYour weapons' recoil is reduced by ##20%##.\n\nNOTE: This applies separately from the Stability weapon stat.\n\n##Comfy and easy to wear.##",
 			
 			["menu_fast_fire_beta"] = "Lead Demiurge",
-			["menu_fast_fire_beta_desc"] = "BASIC: ##$basic##\nYour SMGs, LMGs and Assault Rifles gain ##+50%## increased magazine size.\n\nACE: ##$pro##\nHolding down your fire button with any weapon set to automatic fire will slowly increase your firerate by ##25%## over the course of ##3## seconds.\n\n##no popo##",
+			["menu_fast_fire_beta_desc"] = "베이직: ##$basic##\nYour SMGs, LMGs and Assault Rifles gain ##+50%## increased magazine size.\n\n에이스: ##$pro##\nHolding down your fire button with any weapon set to automatic fire will slowly increase your firerate by ##25%## over the course of ##3## seconds.\n\n##no popo##",
 			
 			["menu_body_expertise_beta"] = "Livid Lead",
-			["menu_body_expertise_beta_desc"] = "BASIC: ##$basic##\nKilling an enemy with a weapon set to automatic fire will ##automatically## reload ##10%## of your magazine ##from your reserve ammo##.\n\nACE: ##$pro##\n##Livid Lead## reloads ##one extra bullet## on activation and can now also be activated by ##killing an enemy with a Melee Weapon##.\n\n##No better way to take your anger out on people.##",
+			["menu_body_expertise_beta_desc"] = "베이직: ##$basic##\nKilling an enemy with a weapon set to automatic fire will ##automatically## reload ##10%## of your magazine ##from your reserve ammo##.\n\n에이스: ##$pro##\n##Livid Lead## reloads ##one extra bullet## on activation and can now also be activated by ##killing an enemy with a Melee Weapon##.\n\n##No better way to take your anger out on people.##",
 			
-			["menu_gun_fighter_beta_desc"] = "BASIC: ##$basic##\nPistols gain ##5## more damage points. \n\nACE: ##$pro##\nPistols gain an additional ##5## damage points.",
+			["menu_gun_fighter_beta_desc"] = "베이직: ##$basic##\nPistols gain ##5## more damage points. \n\n에이스: ##$pro##\nPistols gain an additional ##5## damage points.",
 		
-			["menu_dance_instructor_desc"] = "BASIC: ##$basic##\nYour pistol magazine sizes are increased by ##5## bullets. \n\nACE: ##$pro##\nYou gain a ##25%## increased rate of fire with pistols.",
+			["menu_dance_instructor_desc"] = "베이직: ##$basic##\nYour pistol magazine sizes are increased by ##5## bullets. \n\n에이스: ##$pro##\nYou gain a ##25%## increased rate of fire with pistols.",
 			
-			["menu_expert_handling_desc"] = "BASIC: ##$basic##\nEach successful pistol hit gives you a ##10%## increased accuracy bonus for ##10## seconds and can stack ##4## times.\n\nACE: ##$pro##\nYou reload all pistols ##25%## faster.",
+			["menu_expert_handling_desc"] = "베이직: ##$basic##\nEach successful pistol hit gives you a ##10%## increased accuracy bonus for ##10## seconds and can stack ##4## times.\n\n에이스: ##$pro##\nYou reload all pistols ##25%## faster.",
 			
 			["menu_sprinter_beta"] = "High Vigour",
-			["menu_sprinter_beta_desc"] = "BASIC: ##$basic##\nYour stamina regenerates ##25%## faster.\n\nACE: ##$pro##\nYou gain ##+10## ##Dodge##. ##Dodge## gives you a random chance to ##completely negate damage##.\n\nUpon successfully ##dodging## an attack, regain ##5## stamina.",
+			["menu_sprinter_beta_desc"] = "베이직: ##$basic##\nYour stamina regenerates ##25%## faster.\n\n에이스: ##$pro##\nYou gain ##+10## ##Dodge##. ##Dodge## gives you a random chance to ##completely negate damage##.\n\nUpon successfully ##dodging## an attack, regain ##5## stamina.",
 			
 			["menu_insulation_beta"] = "The Rubber",
-			["menu_insulation_beta_desc"] = "BASIC: ##$basic##\nYou ##no longer uncontrollably fire your weapons## while being electrocuted. Your camera shake while being electrocuted is reduced by ##50%##.\n\nACE: ##$pro##\nYou can now move while being electrocuted at ##20%## of your normal movement speed. Your weapon's Accuracy and Stability ##are no longer affected by electrocution##.\n\n##Never engage without protection.##",
+			["menu_insulation_beta_desc"] = "베이직: ##$basic##\nYou ##no longer uncontrollably fire your weapons## while being electrocuted. Your camera shake while being electrocuted is reduced by ##50%##.\n\n에이스: ##$pro##\nYou can now move while being electrocuted at ##20%## of your normal movement speed. Your weapon's Accuracy and Stability ##are no longer affected by electrocution##.\n\n##Never engage without protection.##",
 			
-			--BASIC: When tased, you can now withstand being ##shocked## ##2## more times before you explode with electricity.
-			--ACED: When tased, ##you can now free yourself from the Taser## by completing a ##Quick Time Event##.\n\nPressing the Interact key just as a Taser ##shocks## you three times in a row will free you.\n\nFailing to press the Interact key or pressing it at the wrong time cancels the skill.
+			--베이직: When tased, you can now withstand being ##shocked## ##2## more times before you explode with electricity.
+			--에이스D: When tased, ##you can now free yourself from the Taser## by completing a ##Quick Time Event##.\n\nPressing the Interact key just as a Taser ##shocks## you three times in a row will free you.\n\nFailing to press the Interact key or pressing it at the wrong time cancels the skill.
 			
 			["menu_jail_diet_beta"] = "Sneakier Bastard",
-			["menu_jail_diet_beta_desc"] = "BASIC: ##$basic##\nYou gain a ##1+## ##Dodge## for every ##1## point of detection risk under ##35## up to ##10%##.\n\nACE: ##$pro##\nUpon ##failing to dodge## an attack, re-roll for the same chance as your current ##Dodge## chance to reduce taken damage from the attack by ##25%##.",
+			["menu_jail_diet_beta_desc"] = "베이직: ##$basic##\nYou gain a ##1+## ##Dodge## for every ##1## point of detection risk under ##35## up to ##10%##.\n\n에이스: ##$pro##\nUpon ##failing to dodge## an attack, re-roll for the same chance as your current ##Dodge## chance to reduce taken damage from the attack by ##25%##.",
 			
 			["menu_backstab_beta"] = "Lower Blow",
-			["menu_backstab_beta_desc"] = "BASIC: ##$basic##\nYou gain ##3%## chance to deal ##Critical Hits## for every ##1## point of concealment under ##35## up to ##30%##.\n\n##Critical Hits## deal ##1.5x## the damage of normal hits.\n\nACE: ##$pro##\nYour ##Critical Hits## now deal ##3x## the damage of normal hits.",
+			["menu_backstab_beta_desc"] = "베이직: ##$basic##\nYou gain ##3%## chance to deal ##Critical Hits## for every ##1## point of concealment under ##35## up to ##30%##.\n\n##Critical Hits## deal ##1.5x## the damage of normal hits.\n\n에이스: ##$pro##\nYour ##Critical Hits## now deal ##3x## the damage of normal hits.",
 			
-			["menu_unseen_strike_beta_desc"] = "BASIC: ##$basic##\nIf you do not lose any armor or health for ##4## seconds, you gain a ##35%## chance to deal ##Critical Hits## for ##6## seconds.\n\nACE: ##$pro##\nThe duration of the ##Critical Hits## buff is increased by ##12## seconds.\n\nTaking damage at any point while the effect is active will cancel the effect.",
+			["menu_unseen_strike_beta_desc"] = "베이직: ##$basic##\nIf you do not lose any armor or health for ##4## seconds, you gain a ##35%## chance to deal ##Critical Hits## for ##6## seconds.\n\n에이스: ##$pro##\nThe duration of the ##Critical Hits## buff is increased by ##12## seconds.\n\nTaking damage at any point while the effect is active will cancel the effect.",
 			
-			["menu_oppressor_beta_desc"] = "BASIC: ##$basic##\nThe duration of the visual effect caused by flashbangs is reduced by ##25%##.\n\nACE: ##$pro##\nYour armor recovery rate is increased by ##15%##.",
+			["menu_oppressor_beta_desc"] = "베이직: ##$basic##\nThe duration of the visual effect caused by flashbangs is reduced by ##25%##.\n\n에이스: ##$pro##\nYour armor recovery rate is increased by ##15%##.",
 			
 			["menu_prison_wife_beta"] = "Jackpot",
-			["menu_prison_wife_beta_desc"] = "BASIC: ##$basic##\nYou regenerate ##5## armor for each successful headshot. This effect cannot occur more than once every ##10## seconds.\n\nACE: ##$pro##\nUpon killing an enemy with a headshot, you gain the ability to resist one instance of ##lethal damage##. This does not apply multiple times, and can only be activated every ##10## seconds.\n\n##Let's rock, baby!##",
+			["menu_prison_wife_beta_desc"] = "베이직: ##$basic##\nYou regenerate ##5## armor for each successful headshot. This effect cannot occur more than once every ##10## seconds.\n\n에이스: ##$pro##\nUpon killing an enemy with a headshot, you gain the ability to resist one instance of ##lethal damage##. This does not apply multiple times, and can only be activated every ##10## seconds.\n\n##Let's rock, baby!##",
 			
 			["menu_show_of_force_beta"] = "Cool Headed",
-			["menu_show_of_force_beta_desc"] = "BASIC: ##$basic##\nYou gain ##+50%## resistance to suppression while interacting with objects.\n\nACE: ##$pro##\nYou gain ##+50%## resistance to damage while performing interactions.\n\n##Phew, good thing I'm indestructible.##",
+			["menu_show_of_force_beta_desc"] = "베이직: ##$basic##\nYou gain ##+50%## resistance to suppression while interacting with objects.\n\n에이스: ##$pro##\nYou gain ##+50%## resistance to damage while performing interactions.\n\n##Phew, good thing I'm indestructible.##",
 			
 			["menu_awareness_beta"] = "Wave Dash",
-			["menu_awareness_beta_desc"] = "BASIC: ##$basic##\nAt the first ##0.3## seconds of a regular sprint, you gain ##25%## faster movement speed.\n\nYou gain ##+5## ##Dodge## while this effect is active.\n\nACE: ##$pro##\nThe stamina cost of starting a sprint and jumping while sprinting is reduced by ##50%##.\n\nThe stamina requirement to activate sprint-related effects and bonuses is reduced by ##50%##.\n\n##Mission Complete!##",
+			["menu_awareness_beta_desc"] = "베이직: ##$basic##\nAt the first ##0.3## seconds of a regular sprint, you gain ##25%## faster movement speed.\n\nYou gain ##+5## ##Dodge## while this effect is active.\n\n에이스: ##$pro##\nThe stamina cost of starting a sprint and jumping while sprinting is reduced by ##50%##.\n\nThe stamina requirement to activate sprint-related effects and bonuses is reduced by ##50%##.\n\n##Mission Complete!##",
 			
 			["menu_trigger_happy_beta"] = "Two Tap",
-			["menu_trigger_happy_beta_desc"] = "BASIC: ##$basic##\nAfter ##hitting an enemy## with a Pistol or Akimbo Pistols, gain a ##+40%## damage boost that lasts for ##1.25## seconds.\n\nACE: ##$pro##\nThe duration of the damage boost is increased to ##2## seconds.\n\n##Stay friends, problem that you can't defend!##",	
+			["menu_trigger_happy_beta_desc"] = "베이직: ##$basic##\nAfter ##hitting an enemy## with a Pistol or Akimbo Pistols, gain a ##+40%## damage boost that lasts for ##1.25## seconds.\n\n에이스: ##$pro##\nThe duration of the damage boost is increased to ##2## seconds.\n\n##Stay friends, problem that you can't defend!##",	
 
 			["menu_bloodthirst"] = "The Instinct",
-			["menu_bloodthirst_desc"] = "BASIC: ##$basic##\nAfter every ##2## non-melee kills, gain ##100%## increased Melee damage and an inactive ##5%## reload speed bonus for your next reload.\n\nThis can be stacked for up to ##600%## extra melee damage and ##30%## extra reload speed.\n\nKilling an enemy with a Melee Weapon will ##activate## the reload speed bonus and ##reset## the melee damage bonus.\n\nACE: ##$pro##\nYour Melee Weapons gain ##100%## extra damage when fully charged and you charge your melee weapons ##50%## faster.\n\n##Fight on.##",
+			["menu_bloodthirst_desc"] = "베이직: ##$basic##\nAfter every ##2## non-melee kills, gain ##100%## increased Melee damage and an inactive ##5%## reload speed bonus for your next reload.\n\nThis can be stacked for up to ##600%## extra melee damage and ##30%## extra reload speed.\n\nKilling an enemy with a Melee Weapon will ##activate## the reload speed bonus and ##reset## the melee damage bonus.\n\n에이스: ##$pro##\nYour Melee Weapons gain ##100%## extra damage when fully charged and you charge your melee weapons ##50%## faster.\n\n##Fight on.##",
 			
 			["menu_steroids_beta"] = "Swing Rhythm",
-			["menu_steroids_beta_desc"] = "BASIC: ##$basic##\nYour melee attacks deal ##100%## more damage and you swing your melee weapons ##100%## faster.\n\nACE: ##$pro##\nYou cannot be staggered by enemies while ##charging your melee or swinging it.##\n\n##Groovy.##",
+			["menu_steroids_beta_desc"] = "베이직: ##$basic##\nYour melee attacks deal ##100%## more damage and you swing your melee weapons ##100%## faster.\n\n에이스: ##$pro##\nYou cannot be staggered by enemies while ##charging your melee or swinging it.##\n\n##Groovy.##",
 			
 			["menu_wolverine_beta"] = "Unstoppable",
-			["menu_wolverine_beta_desc"] = "BASIC: ##$basic##\nThe less health you have, the more power you gain.\n\nWhen under ##100%## Health, deal up to ##500%## more melee and saw damage.\n\nWhen under ##50%## Health, you reload all weapons ##50%## faster.\n\nACE: ##$pro##\nWhen at ##50%## Health or below, you gain ##+50%## resistance to suppression and your interaction speed with Medic Bags and First Aid Kits is increased by ##75%##.",
+			["menu_wolverine_beta_desc"] = "베이직: ##$basic##\nThe less health you have, the more power you gain.\n\nWhen under ##100%## Health, deal up to ##500%## more melee and saw damage.\n\nWhen under ##50%## Health, you reload all weapons ##50%## faster.\n\n에이스: ##$pro##\nWhen at ##50%## Health or below, you gain ##+50%## resistance to suppression and your interaction speed with Medic Bags and First Aid Kits is increased by ##75%##.",
 			
 			["menu_frenzy"] = "Something To Prove",
-			["menu_frenzy_desc"] = "BASIC: ##$basic##\nYou start with ##50%## of your Maximum Health and cannot heal above that.\n\n##ALL DAMAGE DEALT## is increased by ##25%##.\n\nACE: ##$pro##\n##You lose 1 down.##\n\nYour movement speed is increased by ##25%##.\n\n##ALL DAMAGE DEALT## is further increased by ##25%##.\n\n##Kill all sons of bitches, right?##",
+			["menu_frenzy_desc"] = "베이직: ##$basic##\nYou start with ##50%## of your Maximum Health and cannot heal above that.\n\n##ALL DAMAGE DEALT## is increased by ##25%##.\n\n에이스: ##$pro##\n##You lose 1 down.##\n\nYour movement speed is increased by ##25%##.\n\n##ALL DAMAGE DEALT## is further increased by ##25%##.\n\n##Kill all sons of bitches, right?##",
 			
 			["bm_grenade_copr_ability_desc"] = "Activating the Leech ability requires you to break a small opaque glass ampule under your nose and take a deep breath. You're not quite sure what's in it, but it makes the world come into focus, and causes your adrenaline to spike.\n\nOne thing is certain; it sure as shit isn't smelling salts, if the faint wriggling shadow inside it doesn't spell it out.",
 			
