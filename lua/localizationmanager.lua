@@ -574,9 +574,9 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			--Grinder
 			["menu_deck11_1_desc"] = "최대 체력의 ##50%##로 시작하며 그 이상으로 치료할 수 없습니다.\n\n적에게 피해를 입히면 ##3##초 동안 ##0.3##초마다 체력이 ##1##씩 회복됩니다.\n\n이 효과는 중첩되지만 ##1.5##초마다 한 번만 발생하며 ##투피스 정장## 또는 ##경량 방탄 조끼##를 착용한 경우에만 발생합니다.\n\n참고: 체력 제한은 ##증명할 내용##과 중첩됩니다.",
 			
-			["menu_deck11_3_desc"] = "Damaging an enemy now heals ##2## life points every ##0.3## seconds for ##3## seconds.\n\nYou gain ##10%## more health.",
+			["menu_deck11_3_desc"] = "이제 적에게 피해를 입히면 ##3##초 동안 ##0.3##초마다 체력이 ##2##씩 회복됩니다.\n\n체력을 ##10%## 더 얻습니다.",
 			
-			["menu_deck11_7_desc"] = "Damaging an enemy now heals ##4## life points every ##0.3## seconds for ##3## seconds.\n\nYou gain ##5%## more health.",
+			["menu_deck11_7_desc"] = "이제 적에게 피해를 입히면 ##3##초 동안 ##0.3##초마다 체력이 ##4##씩 회복됩니다.\n\n체력을 ##5%## 더 얻습니다.",
 			
 			["menu_deck17_3_desc"] = "You gain ##5%## more health.",
 			["menu_deck17_5_desc"] = "You gain ##5%## more health.\n\nEnemies nearby will prefer targeting you, whenever possible, while the Injector effect is active.",
