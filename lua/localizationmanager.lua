@@ -441,8 +441,8 @@
 		["menu_risk_pd"] = "완전하게 입문할 수 있습니다.",
 		["menu_risk_swat"] = "간단하지만 도전적. 우린 멋져.",
 		["menu_risk_fbi"] = "도전적이지만 편안합니다. 좋은 미풍이군.",
-		["menu_risk_special"] = "따뜻한 여름날. 평범한 도전, 방심하지 마십시오.",
-		["menu_risk_easy_wish"] = "집중을 요구합니다. 여기 뜨거워지는데!",
+		["menu_risk_special"] = "따뜻한 여름날. 평범한 도전, 방심하지 마.",
+		["menu_risk_easy_wish"] = "집중을 요구. 여기 뜨거워지는데!",
 		["menu_risk_elite"] = "더 많은 유닛이 접근합니다! 코너에 더 많은 히트!",
 		["menu_risk_sm_wish"] = "불길을 피할 길은 없다! 맞서 싸워라!",
 		["menu_hh_mutator_incomp"] = "슬프게도! 이 뮤테이터는 하이퍼 하이스팅과 호환되지 않습니다...!",
@@ -521,7 +521,7 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_deck15_1"] = "전사의 소리",
 			["menu_deck15_1_desc"] = "아니키스트는 방탄복 회복 타이머가 경과하면 즉시 방탄복을 완전히 재생하는 대신 ##6##초마다 방탄복을 ##12##씩 생성합니다.\n\n방탄복이 무거울 수록 틱당 ##더 많은 방탄복을 생성##하지만 틱 사이에 ##더 긴 재생 시간##이 있습니다.\n\n적을 죽이면 방탄복 생성을 위한 틱 사이의 ##재생 속도가 빨라집니다##, 죽인 적마다 타이머가 ##1/20##만큼 줄어듭니다.\n\n참고: 이 특성 덱을 사용할 때 방탄복 회복 속도를 증가시키는 스킬과 특성은 비활성화됩니다.",
 			
-			["menu_deck15_3"] = "당신에게 달려오기",
+			["menu_deck15_3"] = "너에게 달려오기",
 			["menu_deck15_3_desc"] = "체력의 ##50%##가 ##25%##만큼 방어구로 전환됩니다.",
 			
 			["menu_deck15_5"] = "새로운 디자인",
@@ -559,20 +559,20 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			
 			["menu_deck2_1_desc"] = "체력을 ##5%##만큼 더 얻습니다.",
 			
-			["menu_deck2_3_desc"] = "You are ##15%## more likely to be targeted by enemies when you are close to your crew members.\n\nYou gain ##5%## more health.",
+			["menu_deck2_3_desc"] = "팀원과 가까이 있을 때 적의 표적이 될 가능성이 ##15%##만큼 더 높아집니다.\n\n체력을 ##5%##만큼 더 얻습니다.",
 			
 			["menu_deck2_5_desc"] = "체력을 ##5%##만큼 더 얻습니다.",
 			
-			["menu_deck2_7_desc"] = "On killing an enemy, you have a ##50%## chance to spread ##Panic## amongst enemies within a ##6m## radius of the victim.\n\n##Panic## will make enemies go into ##bursts of uncontrollable fear.##",
+			["menu_deck2_7_desc"] = "적을 죽이면 ##50%## 확률로 희생자로부터 ##6m## 반경 내에 있는 적들 사이에 ##패닉##을 퍼트립니다.\n\n##패닉##은 적들을 ##통제할 수 없는 공포로 몰아넣습니다.##",
 			
-			["menu_deck2_9_desc"] = "You gain an additional ##5%## more health.\n\nYou regenerate ##1%## of your health every ##5## seconds.",
+			["menu_deck2_9_desc"] = "추가로 ##5%##만큼 체력을 얻습니다.\n\n##5##초마다 체력의 ##1%##를 재생합니다.",
 			
-			["menu_deck10_3_desc"] = "When you pick up ammo, you trigger an ammo pickup for ##50%## of normal pickup to other players in your team.\n\nCannot occur more than once every ##5## seconds.\n\nYou gain ##10%## more health.",
+			["menu_deck10_3_desc"] = "탄약을 획득하면 팀의 다른 플레이어도 일반 픽업의 ##50%##만큼 탄약을 획득합니다.\n\n이 효과는 ##5##초마다 한 번만 발생합니다.\n\n체력을 ##10%##만큼 더 얻습니다.",
 
-			["menu_deck10_5_desc"] = "When you get healed from picking up ammo packs, your teammates also get healed for ##50%## of the amount.\n\nYou gain ##5%## more health.",
+			["menu_deck10_5_desc"] = "탄약을 줍고 체력을 회복하면 팀원들도 해당 탄약 획득량의 ##50%##만큼 치유됩니다.\n\n체력을 ##5%## 더 얻습니다.",
 			
 			--Grinder
-			["menu_deck11_1_desc"] = "You start with ##50%## of your Maximum Health and cannot heal above that.\n\nDamaging an enemy heals ##1## life points every ##0.3## seconds for ##3## seconds.\n\nThis effect stacks but cannot occur more than once every ##1.5## seconds, and only while wearing the ##Two-Piece Suit## or ##Lightweight Ballistic Vest##.\n\nNOTE: The health limit stacks with ##Something To Prove##.",
+			["menu_deck11_1_desc"] = "최대 체력의 ##50%##로 시작하며 그 이상으로 치료할 수 없습니다.\n\n적에게 피해를 입히면 ##3##초 동안 ##0.3##초마다 체력이 ##1##씩 회복됩니다.\n\n이 효과는 중첩되지만 ##1.5##초마다 한 번만 발생하며 ##투피스 정장## 또는 ##경량 방탄 조끼##를 착용한 경우에만 발생합니다.\n\n참고: 체력 제한은 ##증명할 내용##과 중첩됩니다.",
 			
 			["menu_deck11_3_desc"] = "Damaging an enemy now heals ##2## life points every ##0.3## seconds for ##3## seconds.\n\nYou gain ##10%## more health.",
 			
