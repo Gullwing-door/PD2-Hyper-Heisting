@@ -324,7 +324,7 @@
 		["menu_cs_modifier_cloaker_tear_gas"] = "클로커는 이제 돌진하는 동안 조용해지고 25% 더 빠르게 움직입니다.",
 		["menu_cs_modifier_enemy_health_damage"] = "적들은 추가로 피해량이 10%만큼 증가하고 체력이 5%만큼 증가하며 스텔스 상태에서 당신을 약간 더 빠르게 감지합니다.",
 		["loading_heister_13"] = "당장 현실에서 경찰을 쏴봐!!! 니 인생을 확실하게 끝내줄거야! 믿어보라고!",
-		["loading_heister_21"] = "제압이 방어구 재생을 완전히 멈추게 하는 것은 아닙니다! 방어구가 부서졌고 사격당할 때 당황하지 마세요! 시야에서 벗어나고 인내심을 가지세요!",
+		["loading_heister_21"] = "억제가 방어구 재생을 완전히 멈추게 하는 것은 아닙니다! 방어구가 부서졌고 사격당할 때 당황하지 마세요! 시야에서 벗어나고 인내심을 가지세요!",
 		["loading_heister_44"] = "메이헴, 데스 위시 및 데스 센텐스의 적들은 훨씬 더 잘 회피합니다! 그들이 언제 회피할지 예측해보십시오!",
 		["loading_heister_45"] = "ZEAL 군단은 데스 센텐스에서만 등장합니다. 가치 있는 도전이겠지, 아마도?",
 		["loading_heister_46"] = "모든 불도저는 위험한 방식을 가지고 있으므로 피해량, 억제 및 사거리를 주시하십시오!",
@@ -419,8 +419,8 @@
 		["shin_toggle_screenFX_title"] = "울트라 스크린FX!",
 		["shin_toggle_screenFX_desc"] = "바닐라에 존재하는 화면 효과에 다양한 시각적 조정 및 추가 기능을 추가합니다! 참고: 뇌전증 걸린 사람에게는 권장하지 않습니다.",
 		
-		["shin_toggle_suppression_title"] = "X-treme 가시적 제압!",
-		["shin_toggle_suppression_desc"] = "적에게 제압당할 때 화면에 독특한 시각 효과를 추가합니다!",
+		["shin_toggle_suppression_title"] = "X-treme 가시적 억제!",
+		["shin_toggle_suppression_desc"] = "적에게 억제당할 때 화면에 독특한 시각 효과를 추가합니다!",
 		
 		["shin_toggle_health_effect_title"] = "낮은 체력 비주얼!",
 		["shin_toggle_health_effect_desc"] = "당신의 체력이 얼마나 낮은지 나타내기 위해 피 묻은 화면 테두리 효과를 추가합니다! 참고: 변경 사항을 적용하려면 하이스트를 다시 시작해야 합니다.",
@@ -599,7 +599,7 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_medic_2x_beta"] = "비타민",
 			["menu_medic_2x_beta_desc"] = "베이직: ##$basic##\n이제 의사 가방을 ##2##번 사용할 수 있습니다.\n\n에이스: ##$pro##\n모든 속성에서 ##+25%##만큼 회복합니다.\n\n이제 의료 가방을 사용하면 사용자에게 ##치명적 피해 저항## 1회를 줍니다.\n\n##컨테이너 레이블에는 눈에 잘 띄는 따옴표가 있어.##",
 			
-			["menu_inspire_beta_desc"] = "베이직: ##$basic##\n팀원을 ##100%##만큼 더 빨리 소생시킵니다. 팀원에게 소리치면 팀원의 이동 속도와 재장전 속도가 ##30%## 증가하고 ##10##초 동안 제압 저항을 가지게 할 수 있습니다. \n\n에이스: ##$pro##\n##100%## 확률로 최대 ##9##미터 거리에 있는 팀원에게 소리를 지르면 즉시 소생시킬 수 있습니다. 이 효과는 ##30##초마다 한 번만 발생합니다.",
+			["menu_inspire_beta_desc"] = "베이직: ##$basic##\n팀원을 ##100%##만큼 더 빨리 소생시킵니다. 팀원에게 소리치면 팀원의 이동 속도와 재장전 속도가 ##30%## 증가하고 ##10##초 동안 억제 저항을 가지게 할 수 있습니다. \n\n에이스: ##$pro##\n##100%## 확률로 최대 ##9##미터 거리에 있는 팀원에게 소리를 지르면 즉시 소생시킬 수 있습니다. 이 효과는 ##30##초마다 한 번만 발생합니다.",
 			
 			["menu_martial_arts_beta"] = "무술 마스터",			
 			["menu_martial_arts_beta_desc"] = "베이직:##$basic##\n모든 근접 공격에서 받는 피해가 ##50%##만큼 적게 받습니다.\n\n에이스: ##$pro##\n근접 공격으로 적을 쓰러뜨릴 확률이 ##100%##만큼 증가합니다.",
@@ -613,7 +613,7 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_sniper_graze_damage_desc"] = "베이직: ##$basic##\n헤드샷으로 적을 성공적으로 죽이면 ##대규모 피 폭발##이 발생하여 희생자의 ##2##미터 반경 내에 있는 적들을 ##기절시키고## ##300## 피해를 입힙니다.\n\n이 효과는 ##단발## 모드 무기로 쏠때만 활성화될 수 있습니다.\n\n에이스: ##$pro##\n날카로운 붉은 안개의 피 폭발 범위가 ##4미터##로 증가됩니다.\n\n##가만히 있어줘서 고맙다, 등신아!##",
 			
 			["menu_shotgun_cqb_beta"] = "고품질 윤활",
-			["menu_shotgun_cqb_beta_desc"] = "베이직: ##$basic##\nY##전력 질주##하는 동안 무기 교체 속도가 ##+50%##만큼 증가합니다.\n\n에이스: ##$pro##\n전력 질주하는 동안 산탄총의 재장전 속도가 ##+20%##만큼 더 빨라지고 달리지 않을 때는 ##+40%##만큼 더 빨라집니다.\n\n##넌 그것이 실제로 무엇인지 알고 싶지 않지만 결과에 대해 논쟁의 여지는 없어.##",
+			["menu_shotgun_cqb_beta_desc"] = "베이직: ##$basic##\n##전력 질주##하는 동안 무기 교체 속도가 ##+50%##만큼 증가합니다.\n\n에이스: ##$pro##\n전력 질주하는 동안 산탄총의 재장전 속도가 ##+20%##만큼 더 빨라지고 달리지 않을 때는 ##+40%##만큼 더 빨라집니다.\n\n##넌 그것이 실제로 무엇인지 알고 싶지 않지만 결과에 대해 논쟁의 여지는 없어.##",
 			
 			["menu_shotgun_impact_beta"] = "산탄총 어깨보호구",
 			["menu_shotgun_impact_beta_desc"] = "베이직: ##$basic##\n산탄총의 안정성이 ##+12##만큼 증가합니다.\n\n에이스: ##$pro##\n산탄총은 ##체력이 가득한 적##에게 ##+25%##만큼 피해를 줍니다.\n\n##플래신!##",
@@ -629,13 +629,13 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["bm_menu_skill_locked_level_7"] = "빅 가이 스킬이 필요합니다",
 			
 			["menu_bandoliers_beta"] = "파괴적인 비평",
-			["menu_bandoliers_beta_desc"] = "베이직: ##$basic##\n총 탄약량이 ##25%##만큼 증가하고 무기의 탄약 획득량이 ##100%## 증가합니다.\n\n에이스: ##$pro##\n적을 죽이면 수류탄의 재사용 대기시간이 재사용 대기시간의 ##2%##만큼 빨라집니다.\n\n또한 탄약 상자에서 수류탄이 아닌 투척물을 회수할 확률이 ##100%## 증가합니다.\n\n참고: 특성 덱에서 얻는 ##휴대용 옷장##의 탄약 픽업 보너스와 중첩되지 않습니다.\n\n##막대기와 돌은 뼈를 부러뜨릴 수 있지만 너는 그것들을 증발 시킬거야.##",
+			["menu_bandoliers_beta_desc"] = "베이직: ##$basic##\n총 탄약량이 ##25%##만큼 증가하고 무기의 탄약 획득량이 ##100%## 증가합니다.\n\n에이스: ##$pro##\n적을 죽이면 수류탄의 재사용 대기시간이 재사용 대기시간의 ##2%##만큼 빨라집니다.\n\n또한 탄약 상자에서 폭밭물이 아닌 투척물을 회수할 확률이 ##100%## 증가합니다.\n\n참고: 특성 덱에서 얻는 ##휴대용 옷장##의 탄약 픽업 보너스와 중첩되지 않습니다.\n\n##막대기와 돌은 뼈를 부러뜨릴 수 있지만 너는 그것들을 증발 시킬거야.##",
 			
 			["menu_nine_lives_beta"] = "강령술의 위상",
 			["menu_nine_lives_beta_desc"] = "베이직: ##$basic##\n일어난 뒤 ##4미터## 이내에 있는 모든 경찰을 쓰러뜨립니다.\n\n에이스: ##$pro##\n이제 일어난 뒤 ##1.5##초 동안 ##치명적인 피해##로부터 보호됩니다.\n\n##난 살아났다...또.##",
 			
 			["menu_feign_death"] = "암흑의 변형 작용",
-			["menu_feign_death_desc"] = "베이직: ##$basic##\n적을 죽이면 체력을 ##2.5## 회복합니다.\n\n에이스: ##$pro##\n회복량이 체력의 ##5##으로 증가합니다.\n\n##...하지만 대화따윈 그만하고! 덤벼라!##",
+			["menu_feign_death_desc"] = "베이직: ##$basic##\n적을 죽이면 체력을 ##2.5## 회복합니다.\n\n에이스: ##$pro##\n회복량이 체력의 ##5##으로 증가합니다.\n\n##...이제 대화따윈 그만하고! 덤벼라!##",
 			
 			["menu_pistol_beta_messiah"] = "부활",
 			["menu_pistol_beta_messiah_desc"] = "베이직: ##$basic##\n출혈 상태에서 적을 죽이면 스스로 일어날 수 있습니다. 이 효과는 ##240##초마다 한 번만 발생할 수 있습니다.\n\n에이스: ##$pro##\n구금되기 전에 다운횟수를 ##1##회 더 얻는 능력을 얻습니다.\n\n##나의 신성의 표식이 너의 DNA에 흉터를 남길 것이다.##",
@@ -659,7 +659,7 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_sprinter_beta_desc"] = "베이직: ##$basic##\n스태미나가 ##25%##만큼 빠르게 회복됩니다.\n\n에이스: ##$pro##\n##회피##를 ##+10##만큼 얻습니다. ##회피##는 무작위로 ##피해를 완전히 무효화##할 수 있는 기회를 제공합니다.\n\n적의 공격을 ##회피##하는데 성공하면 스태미나를 ##5##만큼 회복합니다.",
 			
 			["menu_insulation_beta"] = "고무",
-			["menu_insulation_beta_desc"] = "베이직: ##$basic##\n감전된 상태에서 ##더 이상 제어할 수 없는 무기를 발사하지 않습니다##. 또한 감전 시 카메라 흔들림이 ##50%## 감소합니다.\n\n에이스: ##$pro##\n이제 감전된 상태에서 일반 이동 속도의 ##20%##로 이동할 수 있습니다. 무기의 명중률과 안정성이 ##더 이상 감전##의 영향을 받지 않습니다.\n\n##보호 장치 없이는 절대 교전하지마라.##",
+			["menu_insulation_beta_desc"] = "베이직: ##$basic##\n감전된 상태에서 ##더 이상 무기를 발사하지 않습니다##. 또한 감전 시 카메라 흔들림이 ##50%## 감소합니다.\n\n에이스: ##$pro##\n이제 감전된 상태에서 일반 이동 속도의 ##20%##로 이동할 수 있습니다. 무기의 명중률과 안정성이 더 이상 ##감전##의 영향을 받지 않습니다.\n\n##보호 장치 없이는 절대 교전하지마라.##",
 			
 			--베이직: When tased, you can now withstand being ##shocked## ##2## more times before you explode with electricity.
 			--에이스D: When tased, ##you can now free yourself from the Taser## by completing a ##Quick Time Event##.\n\nPressing the Interact key just as a Taser ##shocks## you three times in a row will free you.\n\nFailing to press the Interact key or pressing it at the wrong time cancels the skill.
@@ -681,7 +681,7 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_show_of_force_beta_desc"] = "베이직: ##$basic##\n상호작용하는 동안 억제 저항을 ##+50%##만큼 얻습니다.\n\n에이스: ##$pro##\n상호작용하는 동안 피해에 대한 저항력이 ##+50%## 증가합니다.\n\n##휴, 내가 천하무적인게 다행이네.##",
 			
 			["menu_awareness_beta"] = "웨이브 대시",
-			["menu_awareness_beta_desc"] = "베이직: ##$basic##\n일반 전력 질주의 첫 ##0.3##초에 이동 속도가 ##25%##만큼 빨라집니다.\n\n이 효과가 활성화된 동안 ##회피##를 ##+5##만큼 얻습니다.\n\n에이스: ##$pro##\n전력 질주 시작 및 전력 질주 중 점프의 스태미나 소모량이 ##50%## 감소합니다.\n\nThe stamina requirement to activate sprint-related effects and bonuses is reduced by ##50%##.\n\n##Mission Complete!##",
+			["menu_awareness_beta_desc"] = "베이직: ##$basic##\n일반 전력 질주의 첫 ##0.3##초에 이동 속도가 ##25%##만큼 빨라집니다.\n\n이 효과가 활성화된 동안 ##회피##를 ##+5##만큼 얻습니다.\n\n에이스: ##$pro##\n전력 질주 시작 및 전력 질주 중 점프의 스태미나 소모량이 ##50%## 감소합니다.\n\n전력 질주 관련 효과 및 보너스를 활성화하기 위한 스태미나 요구량이 ##50%##만큼 감소합니다.\n\n##미션 성공!##",
 			
 			["menu_trigger_happy_beta"] = "투 탭",
 			["menu_trigger_happy_beta_desc"] = "베이직: ##$basic##\n권총이나 아킴보 권총으로 ##적을 맞추면## ##1.25##초 동안 대미지 증가 효과를 ##+40%##만큼 얻습니다.\n\n에이스: ##$pro##\n대미지 부스트 지속시간이 ##2##초로 증가합니다.\n\n##가만히 있으라구 친구, 저 문제는 방어할 수 없어!##",	
@@ -693,7 +693,7 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_steroids_beta_desc"] = "베이직: ##$basic##\n근접 공격의 피해를 ##100%##만큼 많이 입히고 ##100%##만큼 더 빠르게 휘두릅니다.\n\n에이스: ##$pro##\n##근접 무기를 충전하거나 휘두르는 동안##에는 적에게 비틀거리지 않습니다.\n\n##그루비.##",
 			
 			["menu_wolverine_beta"] = "멈출 수 없는",
-			["menu_wolverine_beta_desc"] = "베이직: ##$basic##\n체력이 적을수록 더 많은 힘을 얻습니다.\n\n체력이 ##100%## 미만일 때 최대 ##500%##까지 더 많은 근접 공격과 톱 피해를 입힙니다.\n\n체력이 ##50%## 미만일 때 모든 무기를 ##50%##만큼 더 빠르게 재장전합니다.\n\n에이스: ##$pro##\n체력이 ##50%## 이하일 때 제압에 대한 저항이 ##+50%##만큼 증가하고 의료 가방 및 구급 키트의 상호 작용 속도가 ##75%##만큼 증가합니다.",
+			["menu_wolverine_beta_desc"] = "베이직: ##$basic##\n체력이 적을수록 더 많은 힘을 얻습니다.\n\n체력이 ##100%## 미만일 때 최대 ##500%##까지 더 많은 근접 공격과 톱 피해를 입힙니다.\n\n체력이 ##50%## 미만일 때 모든 무기를 ##50%##만큼 더 빠르게 재장전합니다.\n\n에이스: ##$pro##\n체력이 ##50%## 이하일 때 억제 저항이 ##+50%##만큼 증가하고 의료 가방 및 구급 키트의 상호 작용 속도가 ##75%##만큼 증가합니다.",
 			
 			["menu_frenzy"] = "증명의 시험",
 			["menu_frenzy_desc"] = "베이직: ##$basic##\n최대 체력의 ##50%##로 시작하며 그 이상으로 치료할 수 없습니다.\n\n##모든 대미지 속성##이 ##25%##만큼 증가합니다.\n\n에이스: ##$pro##\n##다운 수가 1회 감소합니다.##\n\n이동 속도가 ##25%##만큼 증가합니다.\n\n##모든 대미지 속성##이 추가로 ##25%##만큼 증가합니다.\n\n##개자식들을 모두 죽이는거지, 맞지?##",
@@ -704,7 +704,7 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			
 			--mutual perks
 			["menu_deckall_2"] = "그것에 익숙해지다",
-			["menu_deckall_2_desc"] = "제압 저항을 ##+50%##만큼 얻습니다.",
+			["menu_deckall_2_desc"] = "억제 저항을 ##+50%##만큼 얻습니다.",
 			
 			["menu_deckall_6_desc"] = "##방탄복 가방## 장비를 잠금 해제합니다.\n\n##방탄복 가방##은 습격 중에 방탄복을 교체하는 데 사용할 수 있습니다.",
 			
