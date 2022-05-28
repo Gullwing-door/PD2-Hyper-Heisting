@@ -332,7 +332,7 @@
 		["loading_heister_51"] = "많은 일을 할 수 있는 제너럴리스트 빌드를 갖는 것은 완전히 괜찮습니다. 이를 뒷받침할 생소한 기술이 있다고 가정하면 말이죠!",
 		["loading_heister_52"] = "선택한 방어구의 균형력 능력치는 공격을 받았을 때 카메라가 얼마나 세게 흔들리는지를 추적하지만... 하이퍼 하이스팅에서는 해당 통계가 모든 방어구에 동일하게 적용됩니다!",
 		["loading_gameplay_15"] = "ZEAL은 패션 감각이 매우 뛰어납니다. 군중 속에서 그들의 색깔을 보고 어떤 무기를 사용하고 있는지 알아보세요!",
-		["loading_gameplay_37"] = "더 높은 데미지의 소총과 산탄총은 적은 발사로도 테이저나 불도저와 같은 더 강한 적을 제압할 수 있지만 군중 제어는 약합니다. 다른 무기의 능력으로 이를 개선하십시오!",
+		["loading_gameplay_37"] = "더 높은 대미지의 소총과 산탄총은 적은 발사로도 테이저나 불도저와 같은 더 강한 적을 제압할 수 있지만 군중 제어는 약합니다. 다른 무기의 능력으로 이를 개선하십시오!",
 		["loading_gameplay_46"] = "저격수는 당신이 사격 라인 내에서 시간을 보낼수록 더 정확해집니다. 그런 일이 일어나기 전에 저격수를 죽이세요!",
 		["loading_gameplay_56"] = "무한 어썰트 중에서도 플레이어는 기다리기만 하면 구금 상태에서 벗어날 수 있습니다!",
 		["loading_gameplay_76"] = "불도저를 죽이려면 죽을 때까지 쏘십시오! 노려할 곳은 특정 페이스 플레이트, 바이저 또는 얼굴입니다!",
@@ -498,8 +498,8 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 		
 			--Crook
 			["menu_deck6_1_desc"] = "회피 확률이 ##5%##만큼 증가합니다.",
-			["menu_deck6_5_desc"] = "방탄 조끼의 회피 확률이 ##5%##만큼 증가합니다.\n\n방탄 조끼의 방탄복이 ##20%##만큼 증가합니다.",
-			["menu_deck6_7_desc"] = "방탄 조끼의 회피 확률이 ##5%##만큼 증가합니다.\n\n방탄 조끼의 방탄복이 ##25%##만큼 증가합니다.",
+			["menu_deck6_5_desc"] = "방탄 조끼의 회피 확률이 ##5%##만큼 증가합니다.\n\n방탄 조끼의 방탄력이 ##20%##만큼 증가합니다.",
+			["menu_deck6_7_desc"] = "방탄 조끼의 회피 확률이 ##5%##만큼 증가합니다.\n\n방탄 조끼의 방탄력이 ##25%##만큼 증가합니다.",
 			
 			--Burglar
 			["menu_deck7_1_desc"] = "회피 확률이 ##5%##만큼 증가합니다.",
@@ -519,7 +519,7 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 		
 			--Anarchist
 			["menu_deck15_1"] = "전사의 소리",
-			["menu_deck15_1_desc"] = "아니키스트는 방탄복 회복 타이머가 경과하면 즉시 방탄복을 완전히 재생하는 대신 ##6##초마다 방탄복을 ##12##씩 생성합니다.\n\n방탄복이 무거울 수록 틱당 ##더 많은 방탄복을 생성##하지만 틱 사이에 ##더 긴 재생 시간##이 있습니다.\n\n적을 죽이면 방탄복 생성을 위한 틱 사이의 ##재생 속도가 빨라집니다##, 죽인 적마다 타이머가 ##1/20##만큼 줄어듭니다.\n\n참고: 이 특성 덱을 사용할 때 방탄복 회복 속도를 증가시키는 스킬과 특성은 비활성화됩니다.",
+			["menu_deck15_1_desc"] = "아니키스트는 방탄복 회복 타이머가 경과하면 즉시 방탄복을 완전히 재생하는 대신 ##6##초마다 방탄복을 ##12##씩 생성합니다.\n\n방탄복이 무거울 수록 틱당 ##더 많은 방탄복을 생성##하지만 틱 사이에 ##더 긴 재생 시간##이 있습니다.\n\n적을 죽이면 방탄복 생성을 위한 틱 사이의 ##재생 속도가 빨라집니다##, 죽인 적마다 타이머가 ##1/20##만큼 줄어듭니다.\n\n참고: 이 특성 덱을 사용할 때 방탄력 회복 속도를 증가시키는 스킬과 특성은 비활성화됩니다.",
 			
 			["menu_deck15_3"] = "너에게 달려오기",
 			["menu_deck15_3_desc"] = "체력의 ##50%##가 ##25%##만큼 방어구로 전환됩니다.",
@@ -531,8 +531,7 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_deck15_7_desc"] = "적을 죽이면 이제 타이머의 ##1/10##만큼 방탄복 생성을 위한 틱 사이의 재생 속도가 빨라집니다.",
 			
 			["menu_deck15_9"] = "존중이 없음",
-			["menu_deck15_9_desc"] = "체력 피해를 입으면 ##다음 틱 당 방탄복을 즉시 재생##합니다.\n\n덱 완성 보너스: PAYDAY 도중 높은 등급의 아이템을 얻을 확률이 ##10%## 상승합니다.",
-
+			["menu_deck15_9_desc"] = "체력 피해를 입으면 ##다음 틱 당 방탄복을 즉시 재생##합니다.\n\n덱 완성 보너스: PAYDAY 카드에서 높은 등급의 아이템을 얻을 확률이 ##10%## 상승합니다."
 			--Even more Fire Power!--
 			["menu_more_fire_power_desc"] = "베이직: ##$basic;##\n성형작약탄 ##1##개, 트립마인 ##4##개를 소지합니다.\n\n에이스: ##$pro;##\n성형작약탄 ##4##개, 트립마인 ##7##개를 더 소지합니다.",
 			
@@ -552,7 +551,7 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_deck9_5_desc"] ="근접 무기로 적을 죽이면 ##10%##의 체력이 회복됩니다. \n\n이 효과는 ##1##초마다 한 번만 발생합니다. \n\n이동 속도가 ##5%##만큼 추가로 증가합니다.",
  
 			--Stoic--
-			["menu_deck19_1_desc"] = "금욕주의자의 힙 플라스크를 잠금 해체하고 장비합니다.\n\n이제 받는 피해가 ##66%##만큼 감소합니다. 남은 데미지는 그대로 적용됩니다.\n\n대신 ##66%##만큼 감소되는 데미지가 지속 시간(##12##초)에 적용됩니다.\n\n투척무기 키를 사용하여 금욕주의자의 힙 플라스크를 활성화하고 지속 피해을 즉시 무효화할 수 있습니다. 플라스크의 재사용 대기시간은 ##15##초이지만 남은 시간은 적 처치 시 1초씩 줄어듭니다.",
+			["menu_deck19_1_desc"] = "금욕주의자의 힙 플라스크를 잠금 해체하고 장비합니다.\n\n받는 피해량이 ##66%##만큼 감소합니다. 남은 대미지는 그대로 적용됩니다.\n\n그 대신 ##66%##만큼의 피해량은 일정 시간에 나눠 걸쳐서 (##12##초간) 받습니다.\n\n투척 무기 키를 사용하여 금욕주의자의 힙 플라스크를 사용하면 아직 남아있는 누적 피해를 바로 초기화할 수 있습니다. 플라스크는 ##15##초의 쿨다운  시간이 있지만, 적 처치 시 1초씩 감소합니다.",
 			["menu_deck19_3_desc"] = "체력을 ##15%##만큼 더 얻습니다.",
 
 			["menu_deck17_9"] = "한계까지 밀어붙여",
@@ -563,7 +562,7 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			
 			["menu_deck2_5_desc"] = "체력을 ##5%##만큼 더 얻습니다.",
 			
-			["menu_deck2_7_desc"] = "적을 죽이면 ##50%## 확률로 희생자로부터 ##6m## 반경 내에 있는 적들 사이에 ##패닉##을 퍼트립니다.\n\n##패닉##은 적들을 ##통제할 수 없는 공포로 몰아넣습니다.##",
+			["menu_deck2_7_desc"] = "적을 죽이면 ##50%## 확률로 희생자로부터 ##6##미터 반경 내에 있는 적들 사이에 ##패닉##을 퍼트립니다.\n\n##패닉##은 적들을 ##통제할 수 없는 공포로 몰아넣습니다.##",
 			
 			["menu_deck2_9_desc"] = "추가로 ##5%##만큼 체력을 얻습니다.\n\n##5##초마다 체력의 ##1%##를 재생합니다.",
 			
@@ -584,13 +583,13 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["menu_deck17_9_desc"] = "체력을 추가로 ##5%## 더 얻습니다.\n\n최대 체력일 때 주사기 효과 동안 얻은 체력의 ##50##마다 주사기의 재충전 시간이 ##1##초만큼 감소합니다.",
 			
 			--Leech
-			["menu_deck22_1_desc"] = "리치 약병을 잠금 해제하고 장착합니다.\n\n다른 특전 덱으로 변경하면 리치 약병을 다시 사용할 수 없게 됩니다.\n\n리치 앰플은 현재 투척무기를 대체하고 투척무기 슬롯에 장착되어 있으며 원하는 경우 전환할 수 있습니다.\n\n게임 중에 투척무기를 던지는 ##$BTN_ABILITY;## 키를 사용하여 리치 약병을 활성화할 수 있습니다.\n\n리치 약병을 활성화하면 체력이 ##40%##만큼 회복되고, 모든 스태미나가 소모되며, 리치 약병이 지속되는 동안 방탄복과 전력 질주 능력이 비활성화됩니다.\n\n리치 약병이 활성화되어 있는 동안 체력이 ##20%## 분할되고 적으로부터 받는 피해마다 하나의 분할을 제거합니다.\n\n적을 ##2##명씩 죽이면 체력의 한 부할을 회복하고 ##1##초 동안 피해를 차단합니다.\n\n피해를 입을 때마다 팀원의 체력이 ##5%##만큼씩 회복됩니다.\n\n리치 약병은 ##6##초 동안 지속되며 재사용 대기시간는 ##60##초입니다.",
+			["menu_deck22_1_desc"] = "리치 약병을 잠금 해제하고 장착합니다.\n\n다른 특성 덱으로 변경하면 리치 약병을 다시 사용할 수 없게 됩니다.\n\n리치 약병은 투척 무기 슬롯에 장착되어 투척 무기를 대체하고, 원한다면 투척 무기로 다시 변경할 수도 있습니다.\n\n게임 중 투척 무기 사용 키인 ##$BTN_ABILITY##키를 사용하여 리치 약병을 사용할 수 있습니다.\n\n리치 약병을 활성화하면 방탄력을 소모하고 체력이 ##40%##만큼 회복합니다. 능력 발동 중에는 모든 스태미나가 소모되며 방탄력 회복과 전력 질주 능력이 비활성화됩니다.\n\n능력이 활성화되어 있는 동안 체력이 ##20%##당 1칸씩으로 분할되며 적으로부터 받는 피해마다 한 칸이 제거합니다.\n\n적을 ##2##명씩 죽이면 체력의 한 칸을 회복하고 ##1##초 동안 피해를 받지 않습니다.\n\n피해를 입을 때마다 팀원의 체력이 ##5%##씩 회복됩니다.\n\n리치 약병은 ##6##초 동안 지속되며 재##60##초의 쿨다운 시간이 필요합니다.",
 			
-			["menu_second_chances_beta_desc"] = "베이직: ##$basic##\n카메라 ##1##대가 당신과 당신의 팀원을 감지하지 못하도록 비활성화할 수 있는 능력을 얻습니다. 효과는 ##25##초 동안 지속됩니다.\n\n에이스: ##$pro##\n자물쇠를 ##75%##만큼 더 빨리 땁니다. 또한 금고를 따는 능력도 얻습니다.",
+			["menu_second_chances_beta_desc"] = "베이직: ##$basic##\n카메라 ##1##대가 당신과 당신의 팀원을 감지하지 못하도록 비활성화할 수 있는 능력을 얻습니다. 효과는 ##25##초 동안 지속됩니다.\n\n에이스: ##$pro##\n자물쇠를 ##75%##만큼 더 빨리 땁니다. 또한 금고를 딸 수 있습니다.",
 			
 			["menu_perseverance_beta_desc"] = "베이직: ##$basic##\n즉시 쓰러지는 대신, 쓰러지기 전에 이동 패널티를 ##60%##만큼 받고 ##3##초 동안 계속 싸울 수 있는 능력을 얻습니다. \n\n에이스: ##$pro##\n스완송 지속 시간을 ##6##초로 늘립니다.",
 						
-			["menu_overkill_beta_desc"] = "베이직: ##$basic##\n중거리에서 적을 죽이면 ##75%## 확률로 적들 사이에 ##패닉##을 퍼트립니다.\n\n##패닉##은 적들을 ##통제할 수 없는 공포로 몰아넣습니다.##\n\n에이스: ##$pro##\n산탄총으로 적을 죽이면 산탄총은 ##3##초 동안 지속되는 ##50%## 데미지 증가를 받습니다.",
+			["menu_overkill_beta_desc"] = "베이직: ##$basic##\n중거리에서 적을 죽이면 ##75%## 확률로 적들 사이에 ##패닉##을 퍼트립니다.\n\n##패닉##은 적들을 ##통제할 수 없는 공포로 몰아넣습니다.##\n\n에이스: ##$pro##\n산탄총으로 적을 죽이면 산탄총은 ##3##초 동안 지속되는 ##50%## 대미지 증가를 받습니다.",
 			
 			["menu_tea_time_beta"] = "보병의 주사기",
 			["menu_tea_time_beta_desc"] = "베이직: ##$basic##\n당신의 구급 키트 또는 의료 가방 중 하나를 사용한 사람은 ##15##초 동안 ##재장전 속도와 상호작용 속도##가 ##+50%##만큼 증가합니다.\n\n에이스: ##$pro##\n당신의 구급 키트나 의료 가방 중 하나를 사용한 사람은 이제 ##15##초 동안 사용자에게 ##무한한 스태미나##도 부여됩니다.\n\n##예방 접종, 항생제, 진통제, 스테로이드, 히로인, 휘발유... 그리고 타는 것 같은 느낌이야.##",
@@ -630,76 +629,76 @@ Hooks:Add("LocalizationManagerPostInit", "HH_overhaul", function(loc)
 			["bm_menu_skill_locked_level_7"] = "빅 가이 스킬이 필요합니다",
 			
 			["menu_bandoliers_beta"] = "파괴적인 비평",
-			["menu_bandoliers_beta_desc"] = "베이직: ##$basic##\n총 탄약량이 ##25%##만큼 증가하고 무기의 탄약 획득량이 ##100%## 증가합니다.\n\n에이스: ##$pro##\n적을 죽이면 수류탄의 재사용 대기시간이 재사용 대기시간의 ##2%##만큼 빨라집니다.\n\n또한 탄약 상자에서 수류탄이 아닌 투척물을 회수할 확률이 ##100%## 증가합니다.\n\n참고: 특전 덱에서 얻는 ##휴대용 옷장##의 탄약 픽업 보너스와 중첩되지 않습니다.\n\n##막대기와 돌은 뼈를 부러뜨릴 수 있지만 너는 그것들을 증발 시킬거야.##",
+			["menu_bandoliers_beta_desc"] = "베이직: ##$basic##\n총 탄약량이 ##25%##만큼 증가하고 무기의 탄약 획득량이 ##100%## 증가합니다.\n\n에이스: ##$pro##\n적을 죽이면 수류탄의 재사용 대기시간이 재사용 대기시간의 ##2%##만큼 빨라집니다.\n\n또한 탄약 상자에서 수류탄이 아닌 투척물을 회수할 확률이 ##100%## 증가합니다.\n\n참고: 특성 덱에서 얻는 ##휴대용 옷장##의 탄약 픽업 보너스와 중첩되지 않습니다.\n\n##막대기와 돌은 뼈를 부러뜨릴 수 있지만 너는 그것들을 증발 시킬거야.##",
 			
-			["menu_nine_lives_beta"] = "Necromantic Aspect",
-			["menu_nine_lives_beta_desc"] = "베이직: ##$basic##\nAfter being revived, you knock down all cops within ##4 meters##.\n\n에이스: ##$pro##\nYou are now protected from ##lethal damage## for ##1.5## seconds after being revived.\n\n##I live...again.##",
+			["menu_nine_lives_beta"] = "강령술의 위상",
+			["menu_nine_lives_beta_desc"] = "베이직: ##$basic##\n일어난 뒤 ##4미터## 이내에 있는 모든 경찰을 쓰러뜨립니다.\n\n에이스: ##$pro##\n이제 일어난 뒤 ##1.5##초 동안 ##치명적인 피해##로부터 보호됩니다.\n\n##난 살아났다...또.##",
 			
-			["menu_feign_death"] = "Dark Metamorphosis",
-			["menu_feign_death_desc"] = "베이직: ##$basic##\nUpon killing an enemy, regenerate ##2.5## Health.\n\n에이스: ##$pro##\nThe regeneration is increased to ##5## Health.\n\n##...But enough talk! Have at you!##",
+			["menu_feign_death"] = "암흑의 변형 작용",
+			["menu_feign_death_desc"] = "베이직: ##$basic##\n적을 죽이면 체력을 ##2.5## 회복합니다.\n\n에이스: ##$pro##\n회복량이 체력의 ##5##으로 증가합니다.\n\n##...하지만 대화따윈 그만하고! 덤벼라!##",
 			
-			["menu_pistol_beta_messiah"] = "Resurrection",
-			["menu_pistol_beta_messiah_desc"] = "베이직: ##$basic##\nWhile in bleedout, you can revive yourself if you kill an enemy.  This can only happen every ##240## seconds.\n\n에이스: ##$pro##\nYou gain the ability to get downed ##1## more time before going into custody.\n\n##The mark of my divinity shall scar thy DNA.##",
+			["menu_pistol_beta_messiah"] = "부활",
+			["menu_pistol_beta_messiah_desc"] = "베이직: ##$basic##\n출혈 상태에서 적을 죽이면 스스로 일어날 수 있습니다. 이 효과는 ##240##초마다 한 번만 발생할 수 있습니다.\n\n에이스: ##$pro##\n구금되기 전에 다운횟수를 ##1##회 더 얻는 능력을 얻습니다.\n\n##나의 신성의 표식이 너의 DNA에 흉터를 남길 것이다.##",
 			
-			["menu_heavy_impact_beta"] = "Short Holster",
-			["menu_heavy_impact_beta_desc"] = "베이직: ##$basic##\nYou swap weapons ##50%## faster.\n\n에이스: ##$pro##\nYour weapons' recoil is reduced by ##20%##.\n\nNOTE: This applies separately from the Stability weapon stat.\n\n##Comfy and easy to wear.##",
+			["menu_heavy_impact_beta"] = "짧은 홀스터",
+			["menu_heavy_impact_beta_desc"] = "베이직: ##$basic##\n무기를 ##50%##만큼 더 빨리 교체합니다.\n\n에이스: ##$pro##\n무기의 반동이 ##20%## 감소합니다.\n\n참고: 이것은 안정성 무기 능력치와 별도로 적용됩니다.\n\n##편안하고 착용하기 쉽다.##",
 			
-			["menu_fast_fire_beta"] = "Lead Demiurge",
-			["menu_fast_fire_beta_desc"] = "베이직: ##$basic##\nYour SMGs, LMGs and Assault Rifles gain ##+50%## increased magazine size.\n\n에이스: ##$pro##\nHolding down your fire button with any weapon set to automatic fire will slowly increase your firerate by ##25%## over the course of ##3## seconds.\n\n##no popo##",
+			["menu_fast_fire_beta"] = "납 창조자",
+			["menu_fast_fire_beta_desc"] = "베이직: ##$basic##\n기관단총, 경기관총 및 돌격 소총의 탄창이 ##+50%##만큼 증가합니다.\n\n에이스: ##$pro##\n자동 발사로 설정된 무기로 발사 버튼을 누르고 있으면 ##3##초 동안 발사 속도가 천천히 ##25%##만큼 증가합니다.\n\n##이런 된장##",
 			
-			["menu_body_expertise_beta"] = "Livid Lead",
-			["menu_body_expertise_beta_desc"] = "베이직: ##$basic##\nKilling an enemy with a weapon set to automatic fire will ##automatically## reload ##10%## of your magazine ##from your reserve ammo##.\n\n에이스: ##$pro##\n##Livid Lead## reloads ##one extra bullet## on activation and can now also be activated by ##killing an enemy with a Melee Weapon##.\n\n##No better way to take your anger out on people.##",
+			["menu_body_expertise_beta"] = "격노한 납",
+			["menu_body_expertise_beta_desc"] = "베이직: ##$basic##\n자동 발사로 설정된 무기로 적을 죽이면 ##자동으로## 탄창이 ##예비 탄약에서## ##10%##만큼 재장전됩니다.\n\n에이스: ##$pro##\n##격노한 납## 활성화 시 ##추가 총알 1개##를 재장전하며, 이제 ##근접 무기##로 적을 죽여도 활성화할 수 있습니다.\n\n##사람들에게 분노를 표출하는 더 좋은 방법은 이것밖에 없다.##",
 			
-			["menu_gun_fighter_beta_desc"] = "베이직: ##$basic##\nPistols gain ##5## more damage points. \n\n에이스: ##$pro##\nPistols gain an additional ##5## damage points.",
+			["menu_gun_fighter_beta_desc"] = "베이직: ##$basic##\n권총의 피해가 ##5##만큼 증가합니다. \n\n에이스: ##$pro##\n권총의 피해가 추가로 ##5##만큼 증가합니다.",
 		
-			["menu_dance_instructor_desc"] = "베이직: ##$basic##\nYour pistol magazine sizes are increased by ##5## bullets. \n\n에이스: ##$pro##\nYou gain a ##25%## increased rate of fire with pistols.",
+			["menu_dance_instructor_desc"] = "베이직: ##$basic##\n권총 탄창 크기가 ##5##발 만큼 증가합니다. \n\n에이스: ##$pro##\n권총의 연사 속도가 ##25%##만큼 증가합니다.",
 			
-			["menu_expert_handling_desc"] = "베이직: ##$basic##\nEach successful pistol hit gives you a ##10%## increased accuracy bonus for ##10## seconds and can stack ##4## times.\n\n에이스: ##$pro##\nYou reload all pistols ##25%## faster.",
+			["menu_expert_handling_desc"] = "베이직: ##$basic##\n권총으로 명중하면 ##10##초 동안 ##10%##만큼 명중률 증가 보너스를 제공하며 총 ##4##번 중첩될 수 있습니다.\n\n에이스: ##$pro##\n모든 권총을 ##25%## 더 빨리 재장전합니다.",
 			
-			["menu_sprinter_beta"] = "High Vigour",
-			["menu_sprinter_beta_desc"] = "베이직: ##$basic##\nYour stamina regenerates ##25%## faster.\n\n에이스: ##$pro##\nYou gain ##+10## ##Dodge##. ##Dodge## gives you a random chance to ##completely negate damage##.\n\nUpon successfully ##dodging## an attack, regain ##5## stamina.",
+			["menu_sprinter_beta"] = "높은 활력",
+			["menu_sprinter_beta_desc"] = "베이직: ##$basic##\n스태미나가 ##25%##만큼 빠르게 회복됩니다.\n\n에이스: ##$pro##\n##회피##를 ##+10##만큼 얻습니다. ##회피##는 무작위로 ##피해를 완전히 무효화##할 수 있는 기회를 제공합니다.\n\n적의 공격을 ##회피##하는데 성공하면 스태미나를 ##5##만큼 회복합니다.",
 			
-			["menu_insulation_beta"] = "The Rubber",
-			["menu_insulation_beta_desc"] = "베이직: ##$basic##\nYou ##no longer uncontrollably fire your weapons## while being electrocuted. Your camera shake while being electrocuted is reduced by ##50%##.\n\n에이스: ##$pro##\nYou can now move while being electrocuted at ##20%## of your normal movement speed. Your weapon's Accuracy and Stability ##are no longer affected by electrocution##.\n\n##Never engage without protection.##",
+			["menu_insulation_beta"] = "고무",
+			["menu_insulation_beta_desc"] = "베이직: ##$basic##\n감전된 상태에서 ##더 이상 제어할 수 없는 무기를 발사하지 않습니다##. 또한 감전 시 카메라 흔들림이 ##50%## 감소합니다.\n\n에이스: ##$pro##\n이제 감전된 상태에서 일반 이동 속도의 ##20%##로 이동할 수 있습니다. 무기의 명중률과 안정성이 ##더 이상 감전##의 영향을 받지 않습니다.\n\n##보호 장치 없이는 절대 교전하지마라.##",
 			
 			--베이직: When tased, you can now withstand being ##shocked## ##2## more times before you explode with electricity.
 			--에이스D: When tased, ##you can now free yourself from the Taser## by completing a ##Quick Time Event##.\n\nPressing the Interact key just as a Taser ##shocks## you three times in a row will free you.\n\nFailing to press the Interact key or pressing it at the wrong time cancels the skill.
 			
-			["menu_jail_diet_beta"] = "Sneakier Bastard",
-			["menu_jail_diet_beta_desc"] = "베이직: ##$basic##\nYou gain a ##1+## ##Dodge## for every ##1## point of detection risk under ##35## up to ##10%##.\n\n에이스: ##$pro##\nUpon ##failing to dodge## an attack, re-roll for the same chance as your current ##Dodge## chance to reduce taken damage from the attack by ##25%##.",
+			["menu_jail_diet_beta"] = "더 비열한 자식",
+			["menu_jail_diet_beta_desc"] = "베이직: ##$basic##\n발각도가 ##35##에서 ##1##씩 낮아질 수록 최대 ##10%##까지 ##회피##를 ##1+##씩 얻습니다.\n\n에이스: ##$pro##\n적의 공격을 ##회피를 실패##할 시 현재 ##회피## 확률과 같은 확률로 다시 굴려 공격으로 받는 피해를 ##25%##만큼 감소시킵니다.",
 			
-			["menu_backstab_beta"] = "Lower Blow",
-			["menu_backstab_beta_desc"] = "베이직: ##$basic##\nYou gain ##3%## chance to deal ##Critical Hits## for every ##1## point of concealment under ##35## up to ##30%##.\n\n##Critical Hits## deal ##1.5x## the damage of normal hits.\n\n에이스: ##$pro##\nYour ##Critical Hits## now deal ##3x## the damage of normal hits.",
+			["menu_backstab_beta"] = "로우어 블로",
+			["menu_backstab_beta_desc"] = "베이직: ##$basic##\n발각도가 ##35##에서 ##1##씩 낮아질 수록 최대 ##30%##까지 ##치명타 확률##을 ##3%##씩 얻습니다.\n\n##치명타##는 일반 공격의 피해보다 ##1.5##배 만큼 피해를 줍니다.\n\n에이스: ##$pro##\n이제 ##치명타##가 일반 공격의 피해를 ##3배## 줍니다.",
 			
-			["menu_unseen_strike_beta_desc"] = "베이직: ##$basic##\nIf you do not lose any armor or health for ##4## seconds, you gain a ##35%## chance to deal ##Critical Hits## for ##6## seconds.\n\n에이스: ##$pro##\nThe duration of the ##Critical Hits## buff is increased by ##12## seconds.\n\nTaking damage at any point while the effect is active will cancel the effect.",
+			["menu_unseen_strike_beta_desc"] = "베이직: ##$basic##\n##4##초 동안 방탄력이나 체력을 잃지 않았다면, ##6##초 동안 ##치명타##를 줄 확률을 ##35%##만큼 얻습니다.\n\n에이스: ##$pro##\n##치명타## 버프의 지속 시간이 ##12##초 증가합니다.\n\n효과가 활성화된 동안 아무 피해를 입으면 효과가 취소됩니다.",
 			
-			["menu_oppressor_beta_desc"] = "베이직: ##$basic##\nThe duration of the visual effect caused by flashbangs is reduced by ##25%##.\n\n에이스: ##$pro##\nYour armor recovery rate is increased by ##15%##.",
+			["menu_oppressor_beta_desc"] = "베이직: ##$basic##\n섬광탄으로 인한 시각 교란 효과의 지속 시간이 ##25%##만큼 감소합니다.\n\n에이스: ##$pro##\n방어구 회복 속도가 ##15%## 증가합니다.",
 			
-			["menu_prison_wife_beta"] = "Jackpot",
-			["menu_prison_wife_beta_desc"] = "베이직: ##$basic##\nYou regenerate ##5## armor for each successful headshot. This effect cannot occur more than once every ##10## seconds.\n\n에이스: ##$pro##\nUpon killing an enemy with a headshot, you gain the ability to resist one instance of ##lethal damage##. This does not apply multiple times, and can only be activated every ##10## seconds.\n\n##Let's rock, baby!##",
+			["menu_prison_wife_beta"] = "잭팟",
+			["menu_prison_wife_beta_desc"] = "베이직: ##$basic##\n헤드샷을 성공할 때마다 방어구가 ##5##만큼 재생됩니다. 이 효과는 ##10##초마다 한 번만 발생합니다.\n\n에이스: ##$pro##\n헤드샷으로 적을 죽이면 ##치명적 피해##를 1회 저항을 얻습니다. 이 효과는 여러 번 적용되지 않으며 ##10##초마다 활성화됩니다.\n\n##한번 해보자고, 베이비!##",
 			
-			["menu_show_of_force_beta"] = "Cool Headed",
-			["menu_show_of_force_beta_desc"] = "베이직: ##$basic##\nYou gain ##+50%## resistance to suppression while interacting with objects.\n\n에이스: ##$pro##\nYou gain ##+50%## resistance to damage while performing interactions.\n\n##Phew, good thing I'm indestructible.##",
+			["menu_show_of_force_beta"] = "쿨 헤디드",
+			["menu_show_of_force_beta_desc"] = "베이직: ##$basic##\n상호작용하는 동안 억제 저항을 ##+50%##만큼 얻습니다.\n\n에이스: ##$pro##\n상호작용하는 동안 피해에 대한 저항력이 ##+50%## 증가합니다.\n\n##휴, 내가 천하무적인게 다행이네.##",
 			
-			["menu_awareness_beta"] = "Wave Dash",
-			["menu_awareness_beta_desc"] = "베이직: ##$basic##\nAt the first ##0.3## seconds of a regular sprint, you gain ##25%## faster movement speed.\n\nYou gain ##+5## ##Dodge## while this effect is active.\n\n에이스: ##$pro##\nThe stamina cost of starting a sprint and jumping while sprinting is reduced by ##50%##.\n\nThe stamina requirement to activate sprint-related effects and bonuses is reduced by ##50%##.\n\n##Mission Complete!##",
+			["menu_awareness_beta"] = "웨이브 대시",
+			["menu_awareness_beta_desc"] = "베이직: ##$basic##\n일반 전력 질주의 첫 ##0.3##초에 이동 속도가 ##25%##만큼 빨라집니다.\n\n이 효과가 활성화된 동안 ##회피##를 ##+5##만큼 얻습니다.\n\n에이스: ##$pro##\n전력 질주 시작 및 전력 질주 중 점프의 스태미나 소모량이 ##50%## 감소합니다.\n\nThe stamina requirement to activate sprint-related effects and bonuses is reduced by ##50%##.\n\n##Mission Complete!##",
 			
-			["menu_trigger_happy_beta"] = "Two Tap",
-			["menu_trigger_happy_beta_desc"] = "베이직: ##$basic##\nAfter ##hitting an enemy## with a Pistol or Akimbo Pistols, gain a ##+40%## damage boost that lasts for ##1.25## seconds.\n\n에이스: ##$pro##\nThe duration of the damage boost is increased to ##2## seconds.\n\n##Stay friends, problem that you can't defend!##",	
+			["menu_trigger_happy_beta"] = "투 탭",
+			["menu_trigger_happy_beta_desc"] = "베이직: ##$basic##\n권총이나 아킴보 권총으로 ##적을 맞추면## ##1.25##초 동안 대미지 증가 효과를 ##+40%##만큼 얻습니다.\n\n에이스: ##$pro##\n대미지 부스트 지속시간이 ##2##초로 증가합니다.\n\n##가만히 있으라구 친구, 저 문제는 방어할 수 없어!##",	
 
-			["menu_bloodthirst"] = "The Instinct",
-			["menu_bloodthirst_desc"] = "베이직: ##$basic##\nAfter every ##2## non-melee kills, gain ##100%## increased Melee damage and an inactive ##5%## reload speed bonus for your next reload.\n\nThis can be stacked for up to ##600%## extra melee damage and ##30%## extra reload speed.\n\nKilling an enemy with a Melee Weapon will ##activate## the reload speed bonus and ##reset## the melee damage bonus.\n\n에이스: ##$pro##\nYour Melee Weapons gain ##100%## extra damage when fully charged and you charge your melee weapons ##50%## faster.\n\n##Fight on.##",
+			["menu_bloodthirst"] = "본능",
+			["menu_bloodthirst_desc"] = "베이직: ##$basic##\n적을 근접 무기 외로 ##2##명 처치하면, 근접 피해가 ##100%##만큼 증가하고 다음 재장전을 위해 재장전 속도 보너스를 ##5%##만큼 얻습니다.\n\n이 효과는 추가 근접 피해를 최대 ##600%##까지 추가 재장전 속도를 최대 ##30%##까지 중첩될 수 있습니다.\n\n근접 무기로 적을 죽이면 재장전 속도 보너스가 ##활성화##되고 근접 피해 보너스가 ##리셋##됩니다.\n\n에이스: ##$pro##\n근접 무기를 완전 충전할 시 추가 피해를 ##100%##만큼 입히고 ##50%##만큼 더 빨리 충전합니다.\n\n##싸워보자고.##",
 			
-			["menu_steroids_beta"] = "Swing Rhythm",
-			["menu_steroids_beta_desc"] = "베이직: ##$basic##\nYour melee attacks deal ##100%## more damage and you swing your melee weapons ##100%## faster.\n\n에이스: ##$pro##\nYou cannot be staggered by enemies while ##charging your melee or swinging it.##\n\n##Groovy.##",
+			["menu_steroids_beta"] = "스윙 리듬",
+			["menu_steroids_beta_desc"] = "베이직: ##$basic##\n근접 공격의 피해를 ##100%##만큼 많이 입히고 ##100%##만큼 더 빠르게 휘두릅니다.\n\n에이스: ##$pro##\n##근접 무기를 충전하거나 휘두르는 동안##에는 적에게 비틀거리지 않습니다.\n\n##그루비.##",
 			
-			["menu_wolverine_beta"] = "Unstoppable",
-			["menu_wolverine_beta_desc"] = "베이직: ##$basic##\nThe less health you have, the more power you gain.\n\nWhen under ##100%## Health, deal up to ##500%## more melee and saw damage.\n\nWhen under ##50%## Health, you reload all weapons ##50%## faster.\n\n에이스: ##$pro##\nWhen at ##50%## Health or below, you gain ##+50%## resistance to suppression and your interaction speed with Medic Bags and First Aid Kits is increased by ##75%##.",
+			["menu_wolverine_beta"] = "멈출 수 없는",
+			["menu_wolverine_beta_desc"] = "베이직: ##$basic##\n체력이 적을수록 더 많은 힘을 얻습니다.\n\n체력이 ##100%## 미만일 때 최대 ##500%##까지 더 많은 근접 공격과 톱 피해를 입힙니다.\n\n체력이 ##50%## 미만일 때 모든 무기를 ##50%##만큼 더 빠르게 재장전합니다.\n\n에이스: ##$pro##\n체력이 ##50%## 이하일 때 제압에 대한 저항이 ##+50%##만큼 증가하고 의료 가방 및 구급 키트의 상호 작용 속도가 ##75%##만큼 증가합니다.",
 			
-			["menu_frenzy"] = "Something To Prove",
-			["menu_frenzy_desc"] = "베이직: ##$basic##\nYou start with ##50%## of your Maximum Health and cannot heal above that.\n\n##ALL DAMAGE DEALT## is increased by ##25%##.\n\n에이스: ##$pro##\n##You lose 1 down.##\n\nYour movement speed is increased by ##25%##.\n\n##ALL DAMAGE DEALT## is further increased by ##25%##.\n\n##Kill all sons of bitches, right?##",
+			["menu_frenzy"] = "증명의 시험",
+			["menu_frenzy_desc"] = "베이직: ##$basic##\n최대 체력의 ##50%##로 시작하며 그 이상으로 치료할 수 없습니다.\n\n##모든 대미지 속성##이 ##25%##만큼 증가합니다.\n\n에이스: ##$pro##\n##다운 수가 1회 감소합니다.##\n\n이동 속도가 ##25%##만큼 증가합니다.\n\n##모든 대미지 속성##이 추가로 ##25%##만큼 증가합니다.\n\n##개자식들을 모두 죽이는거지, 맞지?##",
 			
-			["bm_grenade_copr_ability_desc"] = "Activating the Leech ability requires you to break a small opaque glass ampule under your nose and take a deep breath. You're not quite sure what's in it, but it makes the world come into focus, and causes your adrenaline to spike.\n\nOne thing is certain; it sure as shit isn't smelling salts, if the faint wriggling shadow inside it doesn't spell it out.",
+			["bm_grenade_copr_ability_desc"] = "리치의 능력을 사용하려면 불투명하고 유리을 코밑에서 깨트리고 깊이 들이쉬어야합니다. 내용물이 뭔지는 잘 모르지만, 집중할 수 있게 도와주고, 아드레날린이 마구 뿜어져 나오게 만듭니다.\n\n한 가지는 확실한건, 말할 수 없을 정도로 희미하게 꿈틀거리는 그림자가 있다는건 이 좆같은 물건이 각셍제가 절대 아니란거죠.",
 			
 			["hud_stats_pagers_used"] = "남은 스트라이크",
 			
